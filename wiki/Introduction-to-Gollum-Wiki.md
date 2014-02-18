@@ -1,0 +1,1 @@
+Found [here](http://alblue.bandlem.com/2011/05/git-tip-of-week-gollum.html)
