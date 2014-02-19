@@ -39,17 +39,22 @@ XML Clash ist Inkonsistenz in Tripel. Aus falschen Aussagen lassen sich beliebig
 
 Es gibt außerdem noch eine Lücke für den Fall, das blank nodes als property benutzt werden.
 
-Die Semantik der Datentypen wird von RDFS nicht wirklich betrachtet. Daher fügt man noch Deduktionsregeln: Wenn beide den selben Wert haben, lassen sich Datentypen ersetzen. Ein Datentyp kann Subklasse eines anderen sein. 
+Die Semantik der Datentypen wird von RDFS nicht wirklich betrachtet. Daher fügt man noch Deduktionsregeln hinzu: Wenn beide den selben Wert haben, lassen sich Datentypen ersetzen. Ein Datentyp kann außerdem Subklasse eines anderen sein. 
 
 Das waren nur zwei von mehreren Ausnahmeregeln.
 
 ####Erklären Sie die Grenzen von RDF(S) und nehmen Sie dabei Bezug auf die beiden Aufgabenteile (a) und (b)
 
 *Keine explizite Negation
+
 *Locality of global properties
+
 *Disjunctive classes
+
 *Class combinations
+
 *Cardinality Restrictions
+
 *Special Property Constraints
 
     (a) Eine Herren-Basketballschaft besteht aus genau einem Center, genau zwei Forwards und genau zwei Guards. Modellieren Sie solch eine Mannschaft in RDF(S) Turtle.
