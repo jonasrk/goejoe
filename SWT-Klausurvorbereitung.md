@@ -27,9 +27,30 @@ Es gibt keine explizite Negation.
 
 ####Was ist hier die Ausnahme? 
 
+XML Clash, e.g. spitze Klammern in XMLLiteral
+
+Es kann auch Inkonsistenzen bzgl. der Datentypen geben Int <-> float
+
 ####Welche Konsequenz ergibt sich daraus für die Wissensrepräsentation?
 
+Es ist schwer Inkonsistenz herzuleiten, mit der man sagen kann, dass es keine Interpretation gibt, mit der ein Graph war werden kann.
+
+XML Clash ist Inkonsistenz in Tripel. Aus falschen Aussagen lassen sich beliebige Aussagen herleiten. Deswegen muss RDFS Herleitbarkeit erweitert werden. I.e. entweder ein Graph lässt sich aus einem anderen herleiten, wenn er sich einfach herleiten lässt oder wenn ein XML Clash vorliegt.
+
+Es gibt außerdem noch eine Lücke für den Fall, das blank nodes als property benutzt werden.
+
+Die Semantik der Datentypen wird von RDFS nicht wirklich betrachtet. Daher fügt man noch Deduktionsregeln: Wenn beide den selben Wert haben, lassen sich Datentypen ersetzen. Ein Datentyp kann Subklasse eines anderen sein. 
+
+Das waren nur zwei von mehreren Ausnahmeregeln.
+
 ####Erklären Sie die Grenzen von RDF(S) und nehmen Sie dabei Bezug auf die beiden Aufgabenteile (a) und (b)
+
+*Keine explizite Negation
+*Locality of global properties
+*Disjunctive classes
+*Class combinations
+*Cardinality Restrictions
+*Special Property Constraints
 
     (a) Eine Herren-Basketballschaft besteht aus genau einem Center, genau zwei Forwards und genau zwei Guards. Modellieren Sie solch eine Mannschaft in RDF(S) Turtle.
     (b) Beschreiben Sie die Instanz ”ex:Flipper“ anhand der in Abb. 1 angegebenen Ontologie in natürlicher Sprache.
