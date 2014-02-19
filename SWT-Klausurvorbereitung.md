@@ -93,3 +93,89 @@ Gefahr 1: Rekursive Strukturen aufbauen, die sich ins unendliche stapeln.
 Gefahr 2: Eigentlich gibt es strikte Klassenzugehörigkeit/Typisierung, hier macht man aber aus einem Property ein Objekt, i.e. eine Ressource. So verwischt die strikte Typisierung.
 
 ####Welche Unterschiede bestehen in OWL 1 DL und OWL 2 DL bezüglich der Reifikation. Wie wird die Problematik der Reifikation in OWL 2 DL gelöst?
+
+
+
+
+
+##SPARQL Anfragen formulieren
+
+Gegeben sei die folgende Wissensbasis:
+
+<code>
+@prefix ex:    <http://example.org/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+Klausur 21.02.2011
+￼@prefix xsd:
+_:a  a
+     foaf:name
+     foaf:homepage
+     foaf:mbox
+     ex:worksFor
+_:b  a
+     foaf:name
+     foaf:mbox
+     foaf:homepage
+     ex:ageInYears
+     foaf:knows
+_:c  a
+     foaf:name
+     foaf:knows
+         [ a
+<http://www.w3.org/2001/XMLSchema#> .
+ex:worksFor
+foaf:homepage ].
+foaf:Person ;
+ex:examplecorp ;
+<http://work.examplecorp.com/trudy/> ;
+foaf:Person ;
+"Alice" ;
+<http://work.examplecorp.org/alice/> ;
+<mailto:alice@examplecorp.org> ;
+ex:examplecorp .
+foaf:Person ;
+"Bob"@en ;
+""; <http://work.examplecorp.com/bob/> ; "24"ˆˆxsd:integer ;
+_:c .
+foaf:Person ;
+"Carlos"@es ;
+_:b,</code>
+
+Formulieren Sie SPARQL Anfragen, um die folgenden Sachverhalte aus der Wissensbasis zu ermitteln. Geben Sie fu ̈r jede Anfrage die Zahl der zuru ̈ckgelieferten Ergebnisse (Zeilen) an.
+(a) Alle Personen mit jeweiligen Angaben zu Namen, Homepage, Mailboxadresse und Alter, soweit bekannt.
+(b) Alle Personen, deren Name ein ’a‘ (unabha ̈ngig von der Groß-/ Kleinschreibung) entha ̈lt oder unter 18 Jahre alt sind.
+(c) Alle Personen, die fu ̈r ExampleCorp arbeiten oder jemanden kennen, der fu ̈r ExampleCorp arbeitet.
+
+
+2
+
+
+
+Gegeben sei die folgende Wissensbasis:
+@prefix ex:    <http://example.org/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+ex:A a skos:Concept ; skos:prefLabel "Kartenspiel"@de ; skos:narrower ex:B,ex:C,ex:D.
+ex:B a               skos:Concept ;
+     skos:prefLabel  "Poker"ˆˆxsd:string ;
+     skos:related    ex:E .
+ex:C a               skos:Concept ;
+     skos:prefLabel  "Skat"@de .
+Klausur 07.02.2012
+12 Punkte
+￼ex:D a skos:Concept ;
+skos:prefLabel "Baccara" ;
+skos:definition "ein Kartengl ̈ucksspiel; wird in Kasinos angeboten" .
+ex:E a               skos:Concept ;
+     skos:prefLabel  "Spielbank"@de ;
+skos:altLabel
+skos:related
+"Kasino"@de ;
+ex:B ,
+[ a               skos:Concept ;
+  skos:prefLabel  "Jeton" ;
+skos:related ex:E ].
+Formulieren Sie SPARQL Anfragen, um die folgenden Sachverhalte aus der Wissensbasis zu ermitteln. Geben Sie fu ̈r jede Anfrage die Zahl der zuru ̈ckgelieferten Ergebnisse (Zeilen) an.
+(a) Alle Konzepte1. Geben Sie zu jedem Konzept die verfu ̈gbaren Angaben zu bevorzugtem Bezeichner, alternativem Bezeichner und Definition aus. (4 Punkte)
+(b) Alle Konzepte, die mehr als ein Unterkonzept2 besitzen oder deren Vorzugsbezeichner ein ”B“ (unabha ̈ngig von der Groß-/Kleinschreibung) entha ̈lt. (4 Punkte)
+(c) Alle Konzepte, die mit dem Konzept ”Kasino“ verwandt (skos:related) sind oder ein Unterkonzept besitzen, das mit dem Konzept ”Kasino“ verwandt ist. (4 Punkte)
