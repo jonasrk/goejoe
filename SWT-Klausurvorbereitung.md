@@ -83,9 +83,13 @@ rdf:obect
 
 Um Aussagen über Aussagen machen zu können.
 
-Aussagen darüber machen, wer etwas gesagt hat oder wo etwas steht.
+Aussagen darüber machen, wer etwas gesagt hat oder wo etwas steht. (Provenienzangaben) Man kan darauf aufbauen Aussage trauen oder nicht trauen. (Reliability & Trust)
 
 ####Warum ist die Umsetzung/Verwendung von Reifikation problematisch?
 
+Wenn man als Objekt wieder Statement angibt: Schachteln und Circular Dependencies/Rekursion.
+
+Gefahr 1: Rekursive Strukturen aufbauen, die sich ins unendliche stapeln.
+Gefahr 2: Eigentlich gibt es strikte Klassenzugehörigkeit/Typisierung, hier macht man aber aus einem Property ein Objekt, i.e. eine Ressource. So verwischt die strikte Typisierung.
 
 ####Welche Unterschiede bestehen in OWL 1 DL und OWL 2 DL bezüglich der Reifikation. Wie wird die Problematik der Reifikation in OWL 2 DL gelöst?
