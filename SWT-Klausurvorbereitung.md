@@ -102,44 +102,43 @@ Gefahr 2: Eigentlich gibt es strikte Klassenzugehörigkeit/Typisierung, hier mac
 
 Gegeben sei die folgende Wissensbasis:
 
-<code>
-@prefix ex:    <http://example.org/> .
-@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
-Klausur 21.02.2011
-￼@prefix xsd:
-_:a  a
-     foaf:name
-     foaf:homepage
-     foaf:mbox
-     ex:worksFor
-_:b  a
-     foaf:name
-     foaf:mbox
-     foaf:homepage
-     ex:ageInYears
-     foaf:knows
-_:c  a
-     foaf:name
-     foaf:knows
-         [ a
-<http://www.w3.org/2001/XMLSchema#> .
-ex:worksFor
-foaf:homepage ].
-foaf:Person ;
-ex:examplecorp ;
-<http://work.examplecorp.com/trudy/> ;
-foaf:Person ;
-"Alice" ;
-<http://work.examplecorp.org/alice/> ;
-<mailto:alice@examplecorp.org> ;
-ex:examplecorp .
-foaf:Person ;
-"Bob"@en ;
-""; <http://work.examplecorp.com/bob/> ; "24"ˆˆxsd:integer ;
-_:c .
-foaf:Person ;
-"Carlos"@es ;
-_:b,</code>
+> @prefix ex:    > <http://example.org/> .
+> @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+> Klausur 21.02.2011
+> ￼@prefix xsd:
+> _:a  a
+>      foaf:name
+>      foaf:homepage
+>      foaf:mbox
+>      ex:worksFor
+> _:b  a
+>      foaf:name
+>      foaf:mbox
+>      foaf:homepage
+>      ex:ageInYears
+>      foaf:knows
+> _:c  a
+>      foaf:name
+>      foaf:knows
+>          [ a
+> <http://www.w3.org/2001/XMLSchema#> .
+> ex:worksFor
+> foaf:homepage ].
+> foaf:Person ;
+> ex:examplecorp ;
+> <http://work.examplecorp.com/trudy/> ;
+> foaf:Person ;
+> "Alice" ;
+> <http://work.examplecorp.org/alice/> ;
+> <mailto:alice@examplecorp.org> ;
+> ex:examplecorp .
+> foaf:Person ;
+> "Bob"@en ;
+> ""; <http://work.examplecorp.com/bob/> ; "24"ˆˆxsd:integer ;
+> _:c .
+> foaf:Person ;
+> "Carlos"@es ;
+> _:b,
 
 Formulieren Sie SPARQL Anfragen, um die folgenden Sachverhalte aus der Wissensbasis zu ermitteln. Geben Sie fu ̈r jede Anfrage die Zahl der zuru ̈ckgelieferten Ergebnisse (Zeilen) an.
 (a) Alle Personen mit jeweiligen Angaben zu Namen, Homepage, Mailboxadresse und Alter, soweit bekannt.
