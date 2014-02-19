@@ -16,4 +16,4 @@ Das Semantic Web ist eine Art globale Datenbank, welche ein universelles Netzwer
 
 ####Wie unterscheidet sich das Semantic Web vom World Wide Web?
 
-Bisher ist das WWW für den Menschen strukturiert und nicht für Maschinen. Bisher nur Markup-Sprache, die Informationen zur Darstellung und nicht zur Bedeutung enthält.
+Bisher ist das WWW für den Menschen strukturiert und nicht für Maschinen. Bisher wurden im WWW vornehmlich Markup-Sprachen verwendet, die lediglich Informationen zur Darstellung und nicht zur Bedeutung enthalten.
