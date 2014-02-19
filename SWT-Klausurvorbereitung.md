@@ -61,3 +61,31 @@ Aufgaben a und b:
 
     (a) Eine Herren-Basketballschaft besteht aus genau einem Center, genau zwei Forwards und genau zwei Guards. Modellieren Sie solch eine Mannschaft in RDF(S) Turtle.
     (b) Beschreiben Sie die Instanz ”ex:Flipper“ anhand der in Abb. 1 angegebenen Ontologie in natürlicher Sprache.
+
+##Reifikation Fragen
+
+####Erklären Sie den Begriff der Reifikation und geben Sie dazu ein Beispiel an (in natürlicher Sprache und RDF/Turtle).
+
+Sherlock Holmes supposes that the gardener has killed the butler.
+
+exv:SherlockHolmes exv:supposes exv:StatementOnGardener .
+exv:StatementOnGardener a rdf:Statement;
+    rdf:subject exv:Gardener;
+    rdf:predicate exv:hasKilled;
+    rdf:obect exv:Butler .
+
+rdf:statement
+rdf:subject
+rdf:predicate
+rdf:obect
+
+####Warum ist die Reifikation im Semantic Web von großer Bedeutung?
+
+Um Aussagen über Aussagen machen zu können.
+
+Aussagen darüber machen, wer etwas gesagt hat oder wo etwas steht.
+
+####Warum ist die Umsetzung/Verwendung von Reifikation problematisch?
+
+
+####Welche Unterschiede bestehen in OWL 1 DL und OWL 2 DL bezüglich der Reifikation. Wie wird die Problematik der Reifikation in OWL 2 DL gelöst?
