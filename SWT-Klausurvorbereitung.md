@@ -57,5 +57,6 @@ Das waren nur zwei von mehreren Ausnahmeregeln.
 
 * Special Property Constraints
 
+
     (a) Eine Herren-Basketballschaft besteht aus genau einem Center, genau zwei Forwards und genau zwei Guards. Modellieren Sie solch eine Mannschaft in RDF(S) Turtle.
     (b) Beschreiben Sie die Instanz ”ex:Flipper“ anhand der in Abb. 1 angegebenen Ontologie in natürlicher Sprache.
