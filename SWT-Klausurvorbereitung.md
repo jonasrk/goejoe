@@ -45,17 +45,17 @@ Das waren nur zwei von mehreren Ausnahmeregeln.
 
 ####Erklären Sie die Grenzen von RDF(S) und nehmen Sie dabei Bezug auf die beiden Aufgabenteile (a) und (b)
 
-*Keine explizite Negation
+* Keine explizite Negation
 
-*Locality of global properties
+* Locality of global properties
 
-*Disjunctive classes
+* Disjunctive classes
 
-*Class combinations
+* Class combinations
 
-*Cardinality Restrictions
+* Cardinality Restrictions
 
-*Special Property Constraints
+* Special Property Constraints
 
     (a) Eine Herren-Basketballschaft besteht aus genau einem Center, genau zwei Forwards und genau zwei Guards. Modellieren Sie solch eine Mannschaft in RDF(S) Turtle.
     (b) Beschreiben Sie die Instanz ”ex:Flipper“ anhand der in Abb. 1 angegebenen Ontologie in natürlicher Sprache.
