@@ -33,7 +33,7 @@ Es kann auch Inkonsistenzen bzgl. der Datentypen geben Int <-> float
 
 ####Welche Konsequenz ergibt sich daraus für die Wissensrepräsentation?
 
-Es ist schwer Inkonsistenz herzuleiten, mit der man sagen kann, dass es keine Interpretation gibt, mit der ein Graph war werden kann.
+Es ist schwer Inkonsistenz herzuleiten, mit der man sagen kann, dass es keine Interpretation gibt, mit der ein Graph wahr werden kann.
 
 XML Clash ist Inkonsistenz in Tripel. Aus falschen Aussagen lassen sich beliebige Aussagen herleiten. Deswegen muss RDFS Herleitbarkeit erweitert werden. I.e. entweder ein Graph lässt sich aus einem anderen herleiten, wenn er sich einfach herleiten lässt oder wenn ein XML Clash vorliegt.
 
