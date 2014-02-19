@@ -17,3 +17,17 @@ Das Semantic Web ist eine Art globale Datenbank, welche ein universelles Netzwer
 ####Wie unterscheidet sich das Semantic Web vom World Wide Web?
 
 Bisher ist das WWW für den Menschen strukturiert und nicht für Maschinen. Bisher wurden im WWW vornehmlich Markup-Sprachen verwendet, die lediglich Informationen zur Darstellung und nicht zur Bedeutung enthalten.
+
+
+##RDF(S) Fragen
+
+####Warum gibt es in RDF(S) nicht wirklich die Möglichkeit, semantische Inkonsistenzen zu erzeugen? 
+
+####Was ist hier die Ausnahme? 
+
+####Welche Konsequenz ergibt sich daraus für die Wissensrepräsentation?
+
+####Erklären Sie die Grenzen von RDF(S) und nehmen Sie dabei Bezug auf die beiden Aufgabenteile (a) und (b)
+
+    (a) Eine Herren-Basketballschaft besteht aus genau einem Center, genau zwei Forwards und genau zwei Guards. Modellieren Sie solch eine Mannschaft in RDF(S) Turtle.
+    (b) Beschreiben Sie die Instanz ”ex:Flipper“ anhand der in Abb. 1 angegebenen Ontologie in natürlicher Sprache.
