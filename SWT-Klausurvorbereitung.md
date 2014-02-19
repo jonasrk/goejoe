@@ -21,7 +21,9 @@ Bisher ist das WWW für den Menschen strukturiert und nicht für Maschinen. Bish
 
 ##RDF(S) Fragen
 
-####Warum gibt es in RDF(S) nicht wirklich die Möglichkeit, semantische Inkonsistenzen zu erzeugen? 
+####Warum gibt es in RDF(S) nicht wirklich die Möglichkeit, semantische Inkonsistenzen zu erzeugen?
+
+Es gibt keine explizite Negation.
 
 ####Was ist hier die Ausnahme? 
 
