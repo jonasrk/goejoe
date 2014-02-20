@@ -2,7 +2,7 @@
 
 ####Alle Spiele von Herstellern in Tokyo
 
-´´´
+```
 PREFIX dbo: <http://dbpedia.org/ontology/>
 
 SELECT ?game ?dev WHERE {
@@ -11,7 +11,7 @@ SELECT ?game ?dev WHERE {
     ?game <http://dbpedia.org/ontology/developer> ?dev .
 }
 ORDER BY ?dev
-´´´
+```
 
 
 #Aufgabenblatt 4
