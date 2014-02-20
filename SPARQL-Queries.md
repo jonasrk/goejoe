@@ -51,7 +51,7 @@ ORDER BY ?name
 
 ####Wer von diesen Personen hat einen Nobelpreis erhalten?
 
-```sql
+```
 PREFIX dbo: <http://dbpedia.org/ontology/>
 
 SELECT ?person2 WHERE {
@@ -72,7 +72,7 @@ ORDER BY ?name
 ###b)
 
 ####Finden Sie alle Indiana-Jones-Filme.
-
+```
 SELECT ?person2 WHERE {
      ?person rdf:type dbpedia-owl:Person .
      ?person dbpprop:name ?name .
