@@ -11,7 +11,7 @@ SELECT ?game ?dev WHERE {
     ?game <http://dbpedia.org/ontology/developer> ?dev .
 }
 ORDER BY ?dev
-´´á
+´´´
 
 
 #Aufgabenblatt 4
