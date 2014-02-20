@@ -7,6 +7,7 @@ http://dbpedia.org/snorql/
 Ausgabe der Artikelzusammenfassung zum deutschen Physiker "Max Planck" in deutscher Sprache.
 
 <code>
+
 PREFIX dbo: <http://dbpedia.org/ontology/>
 
 SELECT ?abstract WHERE {
@@ -24,4 +25,5 @@ SELECT ?abstract WHERE {
 }
 
 ORDER BY ?name
+
 </code>
