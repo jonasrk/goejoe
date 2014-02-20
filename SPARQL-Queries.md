@@ -1,3 +1,19 @@
+#Eigene
+
+####Alle Spiele von Herstellern in Tokyo
+
+´´´
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+SELECT ?game ?dev WHERE {
+    ?dev <http://dbpedia.org/ontology/location> <http://dbpedia.org/resource/Tokyo> .
+    ?game rdf:type <http://dbpedia.org/ontology/VideoGame> .
+    ?game <http://dbpedia.org/ontology/developer> ?dev .
+}
+ORDER BY ?dev
+´´á
+
+
 #Aufgabenblatt 4
 
 ##Aufgabe 2:
@@ -8,7 +24,7 @@ http://dbpedia.org/snorql/
 
 ####Ausgabe der Artikelzusammenfassung zum deutschen Physiker "Max Planck" in deutscher Sprache.
 
-```sql
+```
 PREFIX dbo: <http://dbpedia.org/ontology/>
 SELECT ?abstract WHERE {
      ?person rdf:type dbpedia-owl:Person .
@@ -22,7 +38,7 @@ ORDER BY ?name
 
 ####Wer waren die Doktoranden Max Plancks?
 
-```sql
+```
 PREFIX dbo: <http://dbpedia.org/ontology/>
 
 SELECT ?student WHERE {
@@ -36,7 +52,7 @@ ORDER BY ?name
 
 ####Welche Personen haben dieselbe Hochschule besucht wie Max Planck
 
-```sql
+```
 PREFIX dbo: <http://dbpedia.org/ontology/>
 
 SELECT ?person2 WHERE {
