@@ -95,3 +95,16 @@ SELECT ?movie ?subject WHERE {
 ```
 
 Doppelpunkte in URI sind wohl stressig.
+
+####Finden Sie Filme, die vor 1990 erschienen sind, in denen Personen mitspielen, die auch in einem Indiana-Jones-Film mitgespielt haben.
+```
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+SELECT ?actor ?movies WHERE {
+    ?movie dbo:starring ?actor .
+    ?movie <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Indiana_Jones_films> .
+    ?movies dbo:starring ?actor .
+    ?movies <http://dbpedia.org/ontology/releaseDate> ?date .
+    FILTER ( ?date < "1990-01-01"^^xsd:date )
+}
+```
