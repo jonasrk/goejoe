@@ -1,3 +1,5 @@
+http://dbpedia.org/snorql/
+
 #Eigene
 
 ####Alle Spiele von Herstellern in Tokyo
@@ -17,8 +19,6 @@ ORDER BY ?dev
 #Aufgabenblatt 4
 
 ##Aufgabe 2:
-
-http://dbpedia.org/snorql/
 
 ###a)
 
@@ -89,13 +89,9 @@ ORDER BY ?name
 
 ####Finden Sie alle Indiana-Jones-Filme.
 ```
-SELECT ?person2 WHERE {
-     ?person rdf:type dbpedia-owl:Person .
-     ?person dbpprop:name ?name .
-     FILTER regex(?name, "Max Planck")
-     ?person <http://dbpedia.org/ontology/almaMater> ?uni .
-     ?person2 <http://dbpedia.org/ontology/almaMater> ?uni .
-     ?person2 rdf:type <http://dbpedia.org/class/yago/Laureate110249011> .
+SELECT ?movie ?subject WHERE {
+    ?movie <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Indiana_Jones_films> .
 }
-ORDER BY ?name
-``` 
+```
+
+Doppelpunkte in URI sind wohl stressig.
