@@ -46,3 +46,19 @@ SELECT ?person2 WHERE {
 }
 ORDER BY ?name
 ```
+
+Wer von diesen Personen hat einen Nobelpreis erhalten?
+
+```sql
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+SELECT ?person2 WHERE {
+     ?person rdf:type dbpedia-owl:Person .
+     ?person dbpprop:name ?name .
+     FILTER regex(?name, "Max Planck")
+     ?person <http://dbpedia.org/ontology/almaMater> ?uni .
+     ?person2 <http://dbpedia.org/ontology/almaMater> ?uni .
+     ?person2 rdf:type <http://dbpedia.org/class/yago/Laureate110249011> .
+}
+ORDER BY ?name
+``` 
