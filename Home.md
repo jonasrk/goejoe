@@ -4,7 +4,7 @@ Hello Wiki!
 
 *Ich war hier.*
 
-/noblog
+[noblog](/noblog)
 
 Server:
 
