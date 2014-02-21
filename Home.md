@@ -4,6 +4,8 @@ Hello Wiki!
 
 *Ich war hier.*
 
+/noblog
+
 Server:
 
 1: 2x forever ghost, 1x gollum, 1x while true git push, 1x iodine, htop
