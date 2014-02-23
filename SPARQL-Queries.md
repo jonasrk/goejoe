@@ -7,10 +7,10 @@ http://dbpedia.org/snorql/
 ```
 PREFIX dbo: <http://dbpedia.org/ontology/>
 
-SELECT ?game ?dev WHERE {
-    ?dev <http://dbpedia.org/ontology/location> <http://dbpedia.org/resource/Tokyo> .
-    ?game rdf:type <http://dbpedia.org/ontology/VideoGame> .
-    ?game <http://dbpedia.org/ontology/developer> ?dev .
+SELECT DISTINCT ?dev WHERE {
+    ?dev dbo:location :Tokyo .
+    ?game dbo:developer ?dev .
+    ?game rdf:type dbo:VideoGame .
 }
 ORDER BY ?dev
 ```
