@@ -1,5 +1,5 @@
 ##Wichtige Diagramme
-* dies komische Zwiebeldiagramm mit IT-Implementierbar, Vertraglich regelbar,....
+* Zwiebeldiagramm mit IT-Implementierbar, Vertraglich regelbar, Vesicherbar, Chancen, Risiken
 * dies komische Organigramm "Von der Anforderung zum Werk" u. a. auf Folie 67
 
 ##Wichtiger Inhalt
