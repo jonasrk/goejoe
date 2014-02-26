@@ -109,6 +109,34 @@ Vertragsgestaltung
 
 ###AN - AG Verhältnis
 
+#### Beschaffungsverfahren der öffentlichen Hand
+* Zeitachse: Welche Aktivitäten haben Auftraggeber und Auftragnehmer zu absolvieren?
+    * Ausschreibung
+    * Lieferfrist
+    * Einsatzvorbereitung
+        * Was mache ich während des Testbetriebs?
+    * Strato zieht mit 50k Rechnern um, geheimer Ort, Mirgrationsplan von mehreren Jahren
+    * Beide können in Verzug kommen
+    * Unterscheiden zwischen **Lieferung** von Leistung und **Anlieferung** von Komponenten
+    * Gefahrenübergang - Verantwortung liegt beim späteren AG
+    * Installationsleistung von beiden
+    * Übergabe - vertragliche Lieferfrist? Ab diesem Zeitpunkt läuft der Abnahmetest.
+    * Zorn war damals mit Klimatisierung in Verzug.
+        * Miete für Ding von 200k DM
+        * Hauptspeicherblöcke
+        * wurde später wieder reingerechnet -> messerscharf definieren!
+    * Wechselspiel aus Mängelanzeigen und Mängelbeseitigung
+    * Beim Probebetrieb alles protokollieren
+    * Hier entscheidet sich, ob man Leistung abnimmt oder nicht abnimmt
+    * Rechnungstellung und Zahlung
+    * normale Betriebsphase - je nach Gewährleistung
+    * Beim Kauf ist voller Preis fällig
+    * Bei Miete monatlich gegen Leistung
+    * Definiertes Ende -> nächste Phase
+
+* Nimmt man bei Teilleistungen alles ab, Vorbehalt Gesamtleistung -> Vorbehalte machen!
+* FOB: Free on Board - Lieferant liefert am Flughafen ab -> Einzelne Streckenabschnitte - verschieden versichert - keine Löcher!
+
 ###Vertragsgemäßer Gebrauch
 
 ###Pflichten von AN, AG bei -Mietvertrag, -Kaufvertrag, -Werkvertrag, -Dienstvertrag.
