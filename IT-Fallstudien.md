@@ -47,3 +47,20 @@
 
 ###Fallstudie (IFI - Mell/Wandrei)
 ####Da waren nur noch 10 Minuten Zeit, deswegen nur grobe Fragen zu Hauptproblemen/Möglichkeiten zur Vermeidung dieser
+
+###Wie wird der Vermieter in den BGBs geschützt?
+####auf §543 verwiesen, also auf Recht zur Kündigung beim Vorliegen eines wichtigen Grundes. Das Gesetz war auch das richtige, allerdings sollte wohl hier das Schlüsselwort "Zumutbarkeit"
+
+###welche "geschichtlichen Begebenheiten" sich die verschiedenen Vertragstypen zurückbeziehen. 
+####Kauf ist bei Grundstücken, Miete bei Wohnungen, Dienstvertrag bei Arbeitsverträgen und Werkvertrag beim Hausbau. Hier hatte ich erst "Handwerkeraufträge" und dann "Brückenbau" genannt, Herr Zorn wollte aber gern den Hausbau hören. 
+
+###VOL und BGB also - zumindest im wesentlichen - wörtlich zu kennen schadet also nicht.
+
+###Ablauf des Beschaffungsverfahrens mit seinen 7 Phasen und einigen wichtigen Dokumenten, die dort erstellt werden
+
+###Stichworte die er hören wollte:
+
+####fachkundig
+####eindeutig und erschöpfend
+####Unzumutbar
+####Mitarbeit des Auftraggebers
