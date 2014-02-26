@@ -1,4 +1,16 @@
-###Kenne seine Definitionen und Lebensweisheiten. "Projekt. Scheitern." Was führt zum Scheitern? (fehlende Spezifikation, unklare Rollenverteilung, etc.)
+###Projekt
+####Schwachstellen von Projekten
+* hohe Komplexität
+* Intransperenz
+* keine festen Budgets
+* keine Erfolgsgarantie
+
+###Scheitern
+####Was führt zum Scheitern?
+* fehlende Spezifikation
+* unklare Rollenverteilung
+* Geldgierig -> für guten Rat nicht mehr empfänglich
+* Technikgläubigkeit
 
 ###VOL/A. Grundlagen, Ziel. Die drei Arten. Unterschied freihändig vs. andere (Nachverhandlung möglich, unklare Specs, nur in Ausnahmefällen). Vertragsmäßiger Gebrauch ist maßgeblich.
 
