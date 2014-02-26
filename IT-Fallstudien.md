@@ -23,6 +23,13 @@
 * Projekte müssen definiertes Ende haben
 * formale Übergabe
 
+#### Verfeinerter Ablauf
+
+* 7 Schritte - verfeinert / wesentliche Dokumente
+    * Führen im Erfolgsfall zum Vertragsabschluss
+    * Man packt alles was man will, in die Ausschreibung
+    * Beispiel Bundeswehr: Leitz-Ordner, Zuschlag war eine Postkarte "Auftrag bekommen, nicht bekommen", Musterbeitrag für durchstrukturierte Vergabe
+
 #### Anforderungskatalog
 
 * Anfordergunsbreite
