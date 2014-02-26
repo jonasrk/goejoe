@@ -1,0 +1,66 @@
+## 3# Fallstudie Dr. Mell - Das untote Pferd
+* "Wenn du entdeckst, dass du ein totes Pferd reitest, steig ab."
+
+### Management von oben
+* Wir besorgen stärkere Peitsche
+
+### Phase 2 (ernste Besorgnis):
+* Delegation der Verantwortung
+* Frage: Ist das Pferd wirklich tot?
+* Berliner Flughafen ist tot und wird nur Ärger bringen
+* Wer sind die Player? Welche Anforderungen?
+* Wir kaufen uns Leute von außerhalb ein
+* Flughafen ist tot -> Ich baue daneben einen kleinen Flughafen
+* Gerichtskosten können so viel kosten wie halber Flughafen
+* Tote Pferde eröffnen neue Geschäftsfelder
+* Entschuldigungsphase
+* Verantwortung im politischen Bereich wird ins Publikum delegiert
+
+## 4# Ausgangslage
+### Ausgangslage
+* Anwender gleiche Probleme, hier: drei Fachinformationszentren, Köln, Bonn und Hamburg-$Bank?
+* Fachabteilungen: Betreiberabteilung, Bibliothekare, Entwicklungsabteilung
+* AltSystem ADI war in Anwendung -> moderne Standardsoftware soll entwickelt werden
+* Datenmodell GESI war schon in Planung
+* Pojektname IFI
+* Neues System soll alles können, was das alte System kann. An sich nicht doof, aber Alarmglocken.
+* Softwarelieferant: Angebote von großen und kleinen. Nicht unter 1m - eher 1.5m
+    * Ein kleineres Softwarehaus bietet für 400k an, will dafür aber Lizenzrechte
+* **Alarmsignale**
+    * Anforderungen zu allgemein
+    * Anforderungen Teil des Auftrags
+        * Fachabteilungen hätten auf ihrer Ebene Anforderungen stellen müssen
+    * Festpreis ohne ganz konkrete Anforderungen geht gar nicht!
+    * Warum hat man sich trotzdem eingelassen?
+        * Fachkompetenz
+        * Sonst hätte man nochmal jemand anderen beauftragen müssen
+        * Wenn etwas so günstig ist (Faktor 3), dann ist man zu allen möglichen Zugeständnissen bereit
+            * Man schaltet normale Kontrollmechanismen ab
+        * extrem günstig
+
+## 5# Die ersten Hürden
+* Wollten Verfahrensgestützt (UML) kam aber nicht dazu -> Enttäuschung
+* Softwarehaus WAND Auftragnehmer
+* Erste Prototyp wurde vorgezeigt
+    * Zwei Fachabteilung sauer, weil GESI sich nicht einsetzen ließ
+    * Masken schlecht
+* Wie sind die Auftragsbeziehungen innendrin?
+* Projektleiter kann Auftragnehmer und Unterauftragnehmer haben
+* Festpreisangebot mit Risiko auf AN-Seite
+    * Fachabteilung war nicht mehr AG im Detail sondern nur auf ungefährer Ebene
+* Trotz Festpreis keine Gesamtkostenlegung (Kostenbremse)
+
+## 6# Bereinigungsversuche
+* Ergebnis: Anwender frühzeitig eingebunden, aber mit so rudimentärer Version, dass sie sich nicht mehr zurechtfinden konnten
+    * Fachabteilungen unzufrieden, Entwicklungsabteilungen auch
+* Änderung am Datenmodell: Entwicklungsabteilungen sauer
+* Nach ersten Prototypen schon glauben verloren -> Fachabteilungen innerlich abgemeldet
+    * Fachabteilung wendet sich ab
+* Was hätte man machen sollen?
+    * Wenn einer einen Auftrag gibt heißt das: Sie haben Abnahmeverpflichtung, für das was sie in Auftrag gegeben haben
+    * Was war in Auftrag gegeben?
+        * Genau das, was in der Spezifikation steht
+        * Und das ist man verpflichtet abzunehmen
+        * Was ist, wenn man Abnahme verweigert?
+            * Richter wird sagen: "Vertragsgemäßer Gebrauch?"
+* Mischung aus Projektmanagment, Vertragsrecht, formal harte, bestimmende Vorgehensweisen
