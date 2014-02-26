@@ -1,3 +1,8 @@
+##Wichtige Diagramme
+* dies komische Zwiebeldiagramm mit IT-Implementierbar, Vertraglich regelbar,....
+* dies komische Organigramm "Von der Anforderung zum Werk" u. a. auf Folie 67
+
+##Wichtiger Inhalt
 ### Projekt
 #### Allgemeines
 * Wenn dir eine Projektleitung Angeboten wird, sage nicht gleich zu -> Viele Forderungen kommen später.
@@ -61,10 +66,6 @@ Vertragsgestaltung
 ###AN - AG Verhältnis
 
 ###Vertragsgemäßer Gebrauch
-
-###dies komische Zwiebeldiagramm mit IT-Implementierbar, Vertraglich regelbar,....
-
-###dies komische Organigramm "Von der Anforderung zum Werk" u. a. auf Folie 67
 
 ###Pflichten von AN, AG bei -Mietvertrag, -Kaufvertrag, -Werkvertrag, -Dienstvertrag.
 
