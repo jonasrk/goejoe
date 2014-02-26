@@ -1,6 +1,7 @@
 ##Wichtige Diagramme
 * Zwiebeldiagramm mit IT-Implementierbar, Vertraglich regelbar, Vesicherbar, Chancen, Risiken
-* dies komische Organigramm "Von der Anforderung zum Werk" u. a. auf Folie 67
+* Organigramm "Von der Anforderung zum Werk"
+* Verantwortung für Leistungserfüllung bei den verschiedenen Vertragsarten
 
 ##Wichtiger Inhalt
 ### Projekt
