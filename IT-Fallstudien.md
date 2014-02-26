@@ -19,7 +19,7 @@
 * keine festen Budgets
 * keine Erfolgsgarantie
 
-#### 7 Phasen
+#### Ablauf des Beschaffungsverfahrens mit seinen 7 Phasen und einigen wichtigen Dokumenten, die dort erstellt werden
 
 * Projekte müssen definiertes Ende haben
 * formale Übergabe
@@ -180,12 +180,3 @@ Vertragsgestaltung
 ####Kauf ist bei Grundstücken, Miete bei Wohnungen, Dienstvertrag bei Arbeitsverträgen und Werkvertrag beim Hausbau. Hier hatte ich erst "Handwerkeraufträge" und dann "Brückenbau" genannt, Herr Zorn wollte aber gern den Hausbau hören. 
 
 ###VOL und BGB also - zumindest im wesentlichen - wörtlich zu kennen schadet also nicht.
-
-###Ablauf des Beschaffungsverfahrens mit seinen 7 Phasen und einigen wichtigen Dokumenten, die dort erstellt werden
-
-###Stichworte die er hören wollte:
-
-####fachkundig
-####eindeutig und erschöpfend
-####Unzumutbar
-####Mitarbeit des Auftraggebers
