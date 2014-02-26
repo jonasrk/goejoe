@@ -18,6 +18,43 @@
 * keine festen Budgets
 * keine Erfolgsgarantie
 
+#### 7 Phasen
+
+* Projekte müssen definiertes Ende haben
+* formale Übergabe
+
+#### Anforderungskatalog
+
+* Anfordergunsbreite
+* Fasse Anforderungen möglichst breit, denn Abstriche kommen von alleine
+* unabdingbare und wünschenswerte Anforderungen
+* Entscheidung fällt aufgrund des Preises der wünscheswerten Anforderungen. **Harte Grenzen ziehen!**
+* Anforderungen vollständig erfassen, denn sonst kann man später nicht mehr verlangen
+* Bundeswehr brauch 10^-21 Zuverlässigkeit
+* Schwäbische Verpackungsmaschinen: Rechner ging in die Knie. Wie kann man Volllast abschätzen?
+* Anlage abnehmen: Hersteller wollte alles ansehen. Alle Programme vorzeigen.
+    * Das was man in Vertrag schreibt, muss überprüfbar sein
+* Beschreibe Anforderungen so genau, dass Bieter einen Festpreis kalkulieren können.
+    * Implikation: Die Zeit ergibt sich dann. Anforderungen müssen alle erfasst werden, damit man das machen kann.
+
+#### Unabdingbare Kriterien
+* Anforderungen
+* Termine
+* Preis
+* Zwei Akteure: AG (Ausschreiber) und AN (Bieter)
+    * -> Anforderungen, Termine
+    * <- Zusagen zur Erfüllung, Preis
+    * <- Leistung
+    * -> Gegenleistung
+
+#### Von der Anforderung zum Werk
+* Ornigramm
+* Folgerung von Projektablauf
+    * Man muss sie in 2 Phasen unterteilen: Planungsphase (Preis nach Aufwand), Realisierungsphase (Festpreis)
+* In bisherigen Fallstudien missachtet: 
+    * eGK: Wer ist Auftraggeber? Eierlegende Wollmilchsau. Jede der Anforderungen nicht sinnvoll. Sammelsurium von Diensten. Kein fester Preis. Lebensauftrag (für jedes Softwarehaus schön).
+    * Immer wichtig: Auf Festpreis und Termin einigen. Anforderungen müssen so definiert sein, dass dies möglich ist.
+
 ###Scheitern
 ####Was führt zum Scheitern?
 * fehlende Spezifikation
