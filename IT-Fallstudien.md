@@ -1,5 +1,13 @@
-###Projekt
-####Schwachstellen von Projekten
+### Projekt
+#### Allgemeines
+* Wenn dir eine Projektleitung Angeboten wird, sage nicht gleich zu -> Viele Forderungen kommen später.
+* Die meisten Projekte sind gar keine:
+    * Unabdingbare Projektkriterien: strukturübergreifend, Ziel, Ressourcen beschränkt, Termine, Endetermin
+* Beispiele für Nichtprojekte: nächste Version, kommt darauf an. Entwicklung. Elektromobilität: Suche nach der Super-Batterie -> Forschung. Erreichbarkeit ungewiss.
+* Nicht-Projekte sollte man besser als Vorhaben bezeichnen.
+* Leiter von Projekten sollte man besser als Auftragnehmer (Verantwortlicher) bezeichnen.
+
+#### Schwachstellen von Projekten
 * hohe Komplexität
 * Intransperenz
 * keine festen Budgets
