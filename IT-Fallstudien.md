@@ -36,3 +36,14 @@
 ####2 Phasen der Ausschreibung (Angebote einholen, Entscheidung treffen)
 
 ####Warum haben IT-Projekte oft Probleme detaillierte Anforderungen zu erstellen? (rumlabern! Komplexität,nicht anschaulich,...)
+
+###BGB
+####Was für Vertragstypen gibt es im Schuldrecht?(Kauf,Miete,Werk,Dienst)
+####Worauf kann sich AN im Konfliktfall berufen? Unmöglichkeitsklausel, Mitwirkungspflicht des AG
+
+
+###Vertragsgestaltung
+####Anforderungen können im vornherein nicht spezifiziert werden, aber trotzdem soll Vertrag zustandekommen. Was kann man tun, um spätere Anforderungen gerichtsfest einzubinden? (Sitzungsprotokolle/-entscheidungen zum Teil des Vertrags machen. Vorteil: schriftform, beide Seiten an einem Tisch,flexibel)
+
+###Fallstudie (IFI - Mell/Wandrei)
+####Da waren nur noch 10 Minuten Zeit, deswegen nur grobe Fragen zu Hauptproblemen/Möglichkeiten zur Vermeidung dieser
