@@ -74,6 +74,8 @@
 
 ###Fallstudie: Maßgeblicher Scheiterpunkt und wenn du noch was erzählen kannst, ist gut.
 
+* [Fallstudie Dr. Mell - Das untote Pferd](/Fallstudie-Mell-Das-Untote-Pferd)
+
 ###größtenteils seinen eigenen Stoff (VOL, Vergabe, Vertragsarten, Vertragsbedingungen, Lebensweisheiten,etc..)
 
 ####Vertragsgestaltung
