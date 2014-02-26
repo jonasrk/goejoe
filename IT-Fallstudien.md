@@ -1,0 +1,1 @@
+##Kenne seine Definitionen und Lebensweisheiten. "Projekt. Scheitern." Was führt zum Scheitern? (fehlende Spezifikation, unklare Rollenverteilung, etc.)
