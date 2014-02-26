@@ -26,6 +26,34 @@
 
 ###größtenteils seinen eigenen Stoff (VOL, Vergabe, Vertragsarten, Vertragsbedingungen, Lebensweisheiten,etc..)
 
+####Vertragsgestaltung
+Vertragsgestaltung
+
+* Generalunternehmer, vertragliche Leistungen, Subunternehmer
+* Generalübernehmer, nur Subunternehmen
+* Schuldverhältnisse: Kauf Miet Werk und Dienstverträge (BGB aus dem Jahr 1900)
+* Interesse: Dauerhaft funktionierende Lösung.
+* *vertragsmäßiger Gebrauch* -> Mietsache wird überlassen und Zustand zu erhalten
+* Kaufvertrag: Sache muss frei von Mängeln sein für Garantiezeit.
+* Ist Eigentum an einer Sache wichtig?
+* Dienstvertrag/Arbeitsvertrag: Seine Arbeit zu machen. Verpflichtet sich nicht Projektziel.
+* Werkvertrag: Standardprodukte und Individuallösungen
+* Schuldrecht und Sachenrecht: 
+* Nutzungsrechte: Vielfalt von IT-Vertragstypen. Auftragnehmer hat große Verantwortung.
+* Allerwichtigste Anforderung an Leistung? **vertragsgemäßer Gebrauch** Ich will meine Buchhaltung damit machen, Logistik machen … das zu definieren ist die Hauptaufgabe des Auftraggebers. Die andere Seite hat die Aufgabe, diesen zu gewährleisten.
+
+####Verantwortung und Leistungserfüllung
+
+* **vertragsgemäßer Gebrauch** muss man als Arbeitgeber sicherstellen
+* beliebte Prüfungsfrage: Nach welche Vertragsform hat man die größte Verantwortung, bei welcher das Geringste - Antwort Folie 61
+* Immer an Haftung bei Vertragsnichterfüllung denken
+* Mietvertrag ist stärkste AN-Verantwortung, entscheidender Hebel -> die ganze Zeit Leistung, Sicherheit auf Geldseite: monatl. Zahlen - Druckmittel: Miete einbehalten
+* Werkvertrag
+* Flughafen zu klein, zu weit draußen, skaliert auch nicht
+* Von der Anforderung zum Werk: Werk soll umgesetzt werden
+* Modell: reale und gedacht, grobe Modellvorstellung
+* fertigbar heißt man muss jemand es nicht mehr erklären
+
 ###die anderen Vorträge eher Überblicksartig (Fragen a la: Bei welchen der vorgestellten Fallstudien wurden die Vergabekriterien der VOL beachtet)
 
 ###Kriterien für AN (sachkundig, zuverlässig, leistungsfähig)
