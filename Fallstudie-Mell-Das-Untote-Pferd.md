@@ -64,3 +64,36 @@
         * Was ist, wenn man Abnahme verweigert?
             * Richter wird sagen: "Vertragsgemäßer Gebrauch?"
 * Mischung aus Projektmanagment, Vertragsrecht, formal harte, bestimmende Vorgehensweisen
+
+## nochmal Mell Sicht
+* Sicht des Instituts die als einzige nichts davon hatten
+* Keine Hoffnung auf einheitliches Verfahren
+* Keine Ausschreibung ohne ausführliche Systemanalyse vorher
+* Rettungsversucht
+    * nehmt die Fachabteilungen mit
+* Wie bei allen Rationaliserungsmaßnahmen: Betroffene fühlen sich überrumpelt
+* Vorbereitende Arbeit hat gefehlt
+    * Man hätte Fachabteilung als AG die IT-Abteilungen AN als Konsortium AG gegenüber Softwarehaus Wandrey
+* Wenn das Produkt in Betriebsbereitschaftsnähe kommt müssen AG annehmen
+* Häufiger Konstruktionsfehler: Mittel an falscher Stelle
+
+## 2# Ursachen des Scheiterns
+* IT übernimmt die Verantwortung und setzt neues Verfahren durch
+* Vetorechte dürfen nicht sein, es muss Einigungszwang geben
+* Von Institutsleitung hört man gar nichts
+* Initiative kommt aus mittlerer Ebene
+* Es ist forcierende Ebene (Fachabteilung) und Institutsleitung gefragt
+* ReDesign / Not invented here
+* Wenn man nicht Bescheid weiß, ist Konfrontation vorprogrammiert
+* Damen sind hilfreich, weil sie nicht so kämpferisch sind
+* Never change a running team
+* Manchmal muss die Anwendung komplett ersetzt werden
+* Um Angst vor neuem System zu verhindern:
+    * Bestmögliche Unterstützungen
+    * Schulungen
+    * Lernprozess: Spaß entwickeln
+    * nicht verschrecken!
+    * Zur richtigen zeit machen
+* Unterschiedliche Entwicklungen, Qualitätskriterien
+* Wecker Anekdote
+* IT-Projekte müssen so gestaltet werden, dass sie abgebrochen werden können (nicht Mülleimer, sondern neu aufsetzen)
