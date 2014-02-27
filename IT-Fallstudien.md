@@ -227,6 +227,43 @@
     * Nicht alles ist durch Meter und Kg zu bewerten
 * Im IT-Bereich gleiches Verhalten bei Aufforderung zur Teilnahme am Wettbewerb, aber dann Umschalten auf Freihändige Vergabe
 
+### Weitere VOL/A Vorschriften
+* Leistung so eindeutig beschreiben, dass alle im gleichen Sinne verstehen und Angebote machen können
+* Vertragsbedingungen müssen genannt werden. Idealfall: Postkarte mit Zugschlag gekriegt, Zuschlag nicht gegkriegt
+* Grundsätze
+    * Wenn Verdingungsunterlagen fertiggestellt sind
+        * WIS nicht beachtet
+        * Mell auch nicht
+        * Höllerer haben Ausschreibung gemacht, aber ein Teil war fehlerhaft
+    * Fundermentaler Fehler: Anforderungen an AN
+    * Missbrauch
+        * Handwerker nach Ideen ausquetschen, dann Schwarzarbeit
+    * im Rathaus bis Mitternacht oder Mittags abgeben, Angebote gelten als angenommen
+    * größter Missbrauch: Verraten, was der härteste Konkurrent angeboten hat
+* Zuschlag bekommt das wirtschaftlichste Angebot
+    * Wiese Formulierung -> zwingt zu Kosten-Nutzen-Rechnung
+* Einfachste Verfahren: Punktesystem mit Vierdimensionalem Merkmalsraum, Erfüllungsgrad, es kommt skalarer Wert heraus, daran kann viel manipuliert werden
+    * Biespiele: Lieferant ist zuverlässig, Hauptspeicher
+    * Differenziertes Bild geht in Zahlenwert unter
+* Warum sind Kosten-Nutzen-Rechnungen so schwierig?
+    * Nutzen ist sehr schwer zu bewerten
+        * Beispiel Gesundheitskarte? Bin ich gesünder, glücklicher?
+        * Im Wirtschaftsleben: Niodusch: Traditioneller Vertrieb? Mehr Kunden gewinnen?
+    * Es wird oft mit Scheinnutzen argumentiert?
+    * Bei Höllerer bangen Mitarbeiter
+* Ausschreibung aufheben
+    * wenn kein Angebot eingegangen ist
+    * sich die Grundlagen wesentlich geändert haben
+    * zusammengefasst: AG kann sich zu jeder Zeit verabschieden und muss sich dem AN nicht rechtfertigen, sondern nur im eigenen Bereich
+
+### Teilnehmer am Vergabeverfahren
+* VOF
+* Bewerber und Bieter können verpflichtet werden, Auskünfte darüber zu geben, wie sie wirtschaftlich mit Unternehmen verknüpft sind
+* Wer ist Dreh- und Angelpunkt für unliebsame Begleiterscheinung (Verknüpfung) -> Wer die Ausschreibung macht
+* So wichtige Entscheidungen, dass Gesellschafter sich darum bemühen müssen
+* Datenschutz
+* Harte Interessenskonflikte sind sehr schwer zu lösen, Gerichte brauchen zu lange, man ist in Minenfeld unterwegs, nur mit sehr viel Zeit
+
 ###Fallstudie: Maßgeblicher Scheiterpunkt und wenn du noch was erzählen kannst, ist gut.
 
 * [BER](/Fallstudie-BER)
