@@ -1,5 +1,13 @@
 #Fallstudien neu
 
+# Prüfungsfragen
+* Was haben Sie mitgenommen, was sie vorher noch nicht wussten?
+
+# Wichtige Diagramme
+* Zwiebeldiagramm mit IT-Implementierbar, Vertraglich regelbar, Vesicherbar, Chancen, Risiken
+* Organigramm "Von der Anforderung zum Werk"
+* Verantwortung für Leistungserfüllung bei den verschiedenen Vertragsarten
+
 # BGB
 * wörtlich kennen
 
@@ -26,6 +34,20 @@
 # VOL
 * wörtlich kennen
 
+# Ablauf des Beschaffungsverfahrens
+* 7 Phasen
+    * wichtigen Dokumente, die dort erstellt werden
+
+## Anforderungen
+* Fasse Anforderungen möglichst breit, denn Abstriche kommen von alleine
+* unabdingbare und wünschenswerte Anforderungen
+* Beschreibe Anforderungen so genau, dass Bieter einen Festpreis kalkulieren können.
+
+### Unabdingbare Kriterien
+* Anforderungen
+* Termine
+* Preis
+
 # Ausschreibungen
 ## Was sind die grundsätzlichen Probleme bei Ausschreibungen?
 * Neuentwicklung vs. Standardsoftware/-hardware
@@ -43,15 +65,16 @@
 * freihändig erlaubt Nachverhandlungen
 
 ## 2 Phasen der Ausschreibung
-1. Angebote einholen
-2. Entscheidung treffen
+1. Angebote einholen: Planungsphase (Preis nach Aufwand)
+2. Entscheidung treffen: Realisierungsphase (Festpreis)
 
 #Vertragsgestaltung
 ##Warum haben IT-Projekte oft Probleme detaillierte Anforderungen zu erstellen?
 * Komplexität
 * nicht anschaulich
 
-##Anforderungen können im vornherein nicht spezifiziert werden, aber trotzdem soll Vertrag zustandekommen. 
+##Anforderungen können im vornherein nicht spezifiziert werden, aber trotzdem soll Vertrag zustandekommen.
+* Das was man in Vertrag schreibt, muss überprüfbar sein
 
 ## Was kann man tun, um spätere Anforderungen gerichtsfest einzubinden?
 * Sitzungsprotokolle/-entscheidungen zum Teil des Vertrags machen. Vorteil: 
