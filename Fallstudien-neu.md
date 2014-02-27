@@ -2,7 +2,9 @@
 
 [ITFS-Allgemeines](/ITFS-Allgemeines)
 
-[ITFS-Gesetze](/ITFS-Gesetze)
+[ITFS-BGB](/ITFS-BGB)
+
+[ITFS-VOL](/ITFS-VOL)
 
 [ITFS-Ablaufe](/ITFS-Ablaufe)
 
