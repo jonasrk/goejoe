@@ -10,3 +10,5 @@
 * Organigramm "Von der Anforderung zum Werk"
 * Verantwortung für Leistungserfüllung bei den verschiedenen Vertragsarten
 * Zwei unterschiedliche Phasen im Vergabeverfahren
+* IT-Vertragstypen
+* Vertragsarchitektur
