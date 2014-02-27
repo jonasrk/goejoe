@@ -90,7 +90,7 @@
 * Geldgierig -> für guten Rat nicht mehr empfänglich
 * Technikgläubigkeit
 
-###VOL/A. Grundlagen, Ziel. Die drei Arten. Unterschied freihändig vs. andere (Nachverhandlung möglich, unklare Specs, nur in Ausnahmefällen). Vertragsmäßiger Gebrauch ist maßgeblich.
+##VOL/A. Grundlagen, Ziel. Die drei Arten. Unterschied freihändig vs. andere (Nachverhandlung möglich, unklare Specs, nur in Ausnahmefällen). Vertragsmäßiger Gebrauch ist maßgeblich.
 
 #### #3 Beschaffungsverfahren der öffentlichen Hand
 * Öffentliche Hand ist der allergrößte Auftraggeber überhaupt in unserem Land
@@ -198,6 +198,34 @@
 * Freihändige Vergabe gilt für Leistungen die nicht so genau zu beschreiben sind
 * Anforderung, Zeit, Geld
 * Regeln sollen Auftrageber disziplinieren
+
+### 3 Vergabearten
+    * Freihändige Vergabe heißt, dass es Nachverhandlungen gibt
+        * zB für geringfügige Verfahren
+        * es gelten aber auch alle anderen Regeln des VOL
+        * Vereinfachte Formulierungen
+            * **EVTL WORTLAUT LERNEN**
+        * Warum ist nachverhandeln so fundamental?
+            * Man kann seine Anforderungen noch ändern
+* Immer wichtig: Teilung in Ausschreibephase und Bauphase
+* Architekturfrage -> muss stabil sein
+    * Beispiel: Vergleich Internetarchitektur mit Bargeldtransfer
+        * Beispiel haben für alles oberhalb Ebene 4 Freitextfeld für Verwendungszweck
+        * Man hat Austauschformate definiert
+        * Es gibt Hunderte von Formaten
+        * Zorn hat bei Commerzbank auf Verschlüsselungssystem umgestellt
+        * Verwendungszweck weg
+        * Keine weltweiten übergreifende Standards festgelegt
+        * IBAN ist Routingverfahren
+        * Standard muss erweiterbar sein! Siehe: Was ist auf InternetStack alles gewachsen?
+* Wenn Leistung nicht erschöpfend beschrieben werden kann ...
+* Begrifflich unglücklich: Teilnahme am Wettbewerb und Vergabe
+* DIAGRAMM: Zwei unterschiedliche Phasen im Vergabeverfahren
+* Im Baubereich am meisten Standardisiert
+    * Passiert alles im Rechner
+    * Entscheidung fällt aus System raus
+    * Nicht alles ist durch Meter und Kg zu bewerten
+* Im IT-Bereich gleiches Verhalten bei Aufforderung zur Teilnahme am Wettbewerb, aber dann Umschalten auf Freihändige Vergabe
 
 ###Fallstudie: Maßgeblicher Scheiterpunkt und wenn du noch was erzählen kannst, ist gut.
 
