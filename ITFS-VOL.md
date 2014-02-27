@@ -21,7 +21,7 @@
 * Leistung aus Arbeitsverhältnis muss mittlerer Art und Güte sein
 * einseitige und mehrseitige Leistungen
 
-## Kriterien die Bewerber genügen muss: fachkundig, leistungsfähig, zuverlässig
+## Kriterien die Bewerber genügen muss
 * leistungsfähig und zuverlässig
     * hat sich lange genug am Markt behauptet
 * Referenzen, Fachkunde, Erfüllung
@@ -64,7 +64,6 @@
 
 ## Weiteres Vefahren
 * Immer wichtig: Teilung in Ausschreibungsphase und Bauphase
-* **DIAGRAMM:** Zwei unterschiedliche Phasen im Vergabeverfahren
 * Im IT-Bereich gleiches Verhalten bei Aufforderung zur Teilnahme am Wettbewerb, aber dann Umschalten auf Freihändige Vergabe
 
 ## Weitere VOL/A Vorschriften
