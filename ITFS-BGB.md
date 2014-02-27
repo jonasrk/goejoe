@@ -1,7 +1,5 @@
 # Gesetze
 ## BGB
-* wörtlich kennen
-
 ### Was für Vertragstypen gibt es im Schuldrecht?
 * Kauf
 * Miete
