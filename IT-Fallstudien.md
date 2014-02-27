@@ -1,9 +1,29 @@
-##Wichtige Diagramme
+#Wichtige Diagramme
 * Zwiebeldiagramm mit IT-Implementierbar, Vertraglich regelbar, Vesicherbar, Chancen, Risiken
 * Organigramm "Von der Anforderung zum Werk"
 * Verantwortung für Leistungserfüllung bei den verschiedenen Vertragsarten
 
-##Wichtiger Inhalt
+# Lebensweisheiten
+* Kein sicherer Weg zum Erfolg, aber zum Misserfolg (Platon)
+    * BER, Anwohner wollen Nachtflugverbot
+* Wir begehen so viele Fehler, weil wir meistens nur Teilprobleme lösen (Seneca)
+    * Man setzt Systemgrnezen zu eng
+* Am Scheideweg stehen keine Wegweiser
+* Organisieren heißt, dem Zufall keine Chance zu lassen
+*  Think big, act small -> Gesamtdesign im Auge haben
+*  Prognose sind schwierig, besonders über die Zukunft
+    * Zorn hat sich fast immer getäuscht
+
+# Grundsätze und Grundsatzfragen
+* Schuldige: Spricht gegen Grundsatzfrage "Wer trägt die Verantwortung?"
+    * Wenn man Consultant herholt, kann man Aufgaben delegieren, muss sie aber auch abnehmen
+* Stelle nur solche Anforderungen, deren Realisierung Du auch im Abnahmebetrieb auch überprüfen kannst
+
+# Juristiches Denken
+* Wozu verpflichte ich mich?
+* Wie kann ich sichergehen?
+
+#Wichtiger Inhalt
 ### Projekt
 #### Allgemeines
 * Wenn dir eine Projektleitung Angeboten wird, sage nicht gleich zu -> Viele Forderungen kommen später.
@@ -184,7 +204,7 @@
 * [Fallstudie BER](/Fallstudie-BER)
 * [Fallstudie Dr. Mell - Das untote Pferd](/Fallstudie-Mell-Das-Untote-Pferd)
 
-###größtenteils seinen eigenen Stoff (VOL, Vergabe, Vertragsarten, Vertragsbedingungen, Lebensweisheiten,etc..)
+###größtenteils seinen eigenen Stoff (VOL, Vergabe, Vertragsarten, Vertragsbedingungen,etc..)
 
 ####Vertragsgestaltung
 Vertragsgestaltung
