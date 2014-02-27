@@ -12,3 +12,4 @@
 * Zwei unterschiedliche Phasen im Vergabeverfahren
 * IT-Vertragstypen
 * Vertragsarchitektur
+* Zeitachse: Welche Aktivitäten haben Auftraggeber und Auftragnehmer zu absolvieren?
