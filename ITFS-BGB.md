@@ -13,8 +13,12 @@
 * Werkvertrag: Hausbau
 
 #### Pflichten von AN und AG bei Vertragstypen
+* Mietvertrag: Vermieter wird verpflichtet die Sache zum vertragsmäßigen Gebrauch zu überlassen und diesen während der Mietzeit sicherzustellen
+* Kaufvertrag: Eigentum an Sache frei von Mängeln verschaffen
+* Dienstvertrag: versprochene Dienste ableisten
+* Werkvertrag: Herstellen des versprochenen Werkes
 
-### Übeblick IT-Vertragstypen
+### Überblick IT-Vertragstypen
 * viele, aber vom Ursprung alle Kauf, Miete, Dienstleistung und Werk
 * **DIAGRAMM LERNEN**
 * Vertragsarchitektur
