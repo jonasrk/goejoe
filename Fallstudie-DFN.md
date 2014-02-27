@@ -1,5 +1,5 @@
-## 5# Internet-Dienste
-* Falstudie DFN-Ausschreibung
+## Internet-Dienste
+* Falfstudie DFN-Ausschreibung
 * Auftrag: Protokolle nach ISO OSI umsetzen
 * Als 1990 Internetdienste eingeführt wurden
     * Keiner hat Zuschlag bekommen wegen Widerstand gegen ISO OSI
@@ -9,7 +9,7 @@
 * 1 Tag vor Frist hat Zorn Angebot verschickt
 * 6 Wochen später: Ausschreibung wurde aufgehoben
 * Kein Angebot genügten den vollen Anforderungen
-* Was macht man, wenn man Ausscreibung nicht gewinnt? Man macht weiter
+* Was macht man, wenn man Ausschreibung nicht gewinnt? Man macht weiter
 * Anlass 20 Jahre erste eMail, Zorn hat Genealogie aufgeschrieben
 * Teilnehmer am Wettbwerb
     * Mach die Anforderungen gründlich
