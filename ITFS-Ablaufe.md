@@ -1,5 +1,8 @@
 # Abläufe
 ## Ablauf des Beschaffungsverfahrens
+* 2 Phasen eines Projektes
+    1. Planungsphase (Preis nach Aufwand)
+    2. Realisierungsphase (Festpreis)
 * 7 Phasen
     * wichtigen Dokumente, die dort erstellt werden
 
@@ -12,6 +15,14 @@
 * Anforderungen
 * Termine
 * Preis
+
+### Zeitachse: Welche Aktivitäten haben Auftraggeber und Auftragnehmer zu absolvieren?
+
+### Abnahme
+    * Wechselspiel aus Mängelanzeigen und Mängelbeseitigung
+    * Beim Probebetrieb alles protokollieren
+    * Hier entscheidet sich, ob man Leistung abnimmt oder nicht abnimmt
+    * Rechnungstellung und Zahlung
 
 ## Ausschreibungen
 ### Was sind die grundsätzlichen Probleme bei Ausschreibungen?
@@ -30,10 +41,15 @@
 * freihändig erlaubt Nachverhandlungen
 
 ### 2 Phasen der Ausschreibung
-1. Angebote einholen: Planungsphase (Preis nach Aufwand)
-2. Entscheidung treffen: Realisierungsphase (Festpreis)
+1. Angebote einholen
+2. Entscheidung treffen
 
 ##Vertragsgestaltung
+###vertragsmäßiger Gebrauch
+* Mietsache wird überlassen und Zustand zu erhalten
+* Diese zu definieren ist die Hauptaufgabe des Auftraggebers
+* Die andere Seite hat die Aufgabe, diesen zu gewährleisten
+
 ###Warum haben IT-Projekte oft Probleme detaillierte Anforderungen zu erstellen?
 * Komplexität
 * nicht anschaulich
