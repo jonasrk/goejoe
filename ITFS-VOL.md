@@ -69,13 +69,13 @@
 ## Weitere VOL/A Vorschriften
 * Leistung so eindeutig beschreiben, dass alle im gleichen Sinne verstehen und Angebote machen können
 * Vertragsbedingungen müssen genannt werden. Idealfall: Postkarte mit Zugschlag gekriegt, Zuschlag nicht gekriegt
+* im Rathaus bis Mitternacht oder Mittags abgegeben: Angebote gelten als angenommen
 
-## Grundsätze
+## Fehler und Missbrauch
 * Fundamentaler Fehler: Anforderungen AN machen lassen
 * Missbrauch
     * Handwerker nach Ideen ausquetschen, dann Schwarzarbeit
     * Verraten, was der härteste Konkurrent angeboten hat
-* im Rathaus bis Mitternacht oder Mittags abgegeben: Angebote gelten als angenommen
 
 ## Zuschlag bekommt das wirtschaftlichste Angebot
 * Weise Formulierung -> zwingt zu Kosten-Nutzen-Rechnung
