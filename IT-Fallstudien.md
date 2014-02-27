@@ -348,6 +348,7 @@ Vertragsgestaltung
 * [Dr. Mell - Das untote Pferd](/Fallstudie-Mell-Das-Untote-Pferd)
 * [La Poste](/Fallstudie-La-Poste)
 * [DFN](/Fallstudie-DFN)
+* [HPI](/Fallstudie-HPI)
 
 
 
