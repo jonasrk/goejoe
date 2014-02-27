@@ -33,7 +33,7 @@
 * Berliner Senat - ein Bereich hat Führung - es hat sich keiner gefunden, der das zu seiner Sache gemacht hat
 
 ### Versteyl
-* Abfallwirtschaft, Berlin, Hamburg Stuttgar
+* Abfallwirtschaft, Berlin, Hamburg Stuttgart
 * Bürger sind AG
     * unterschiedliche Meinungen: Wie raufen sie sich zussamen? organisieren sich?
 
