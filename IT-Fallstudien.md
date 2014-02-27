@@ -1,6 +1,12 @@
 #IT Fallstudien
 
-#Wichtige Diagramme
+# Prüfungsfragen
+* mündliche: Was haben Sie mitgenommen, was sie vorher noch nicht wussten?
+    * Auch unter Mitwirkung von Fachleuten kann viel schief gehen und es kann Chaos geben
+    * Juristische Regelungen sollen Konflikte minimieren
+    * In allen Projekten sind einzelne Leute die Ursachen für Fehlschläge (wirklich?)
+
+# Wichtige Diagramme
 * Zwiebeldiagramm mit IT-Implementierbar, Vertraglich regelbar, Vesicherbar, Chancen, Risiken
 * Organigramm "Von der Anforderung zum Werk"
 * Verantwortung für Leistungserfüllung bei den verschiedenen Vertragsarten
@@ -92,6 +98,18 @@
 #Verträge
 ## Vertragsarten
 Werks, Dienst, Miet, kauf
+
+## Übeblick IT-Vertragstypen
+* viele, aber vom Ursprung alle Kauf, Miete, Dienstleistung und Werk
+* **DIAGRAMM LERNEN**
+* Vertragsarchitektur
+* **AUCH DIAGRAMM LERNEN**
+* Individualvertrag manifestiert sich in Leistungsbeschreibung
+* BVB - VOL/B - BGB
+* Mit Miete hat man 72' angefangen
+* Grundsatz nach Treu und Glauben
+    * hilft nur, wenn der andere nach gleichen Grundsätzen glauben
+    * man begegnet sich immer zweimal, also beherzigen
 
 ## Vertragsbedingungen
 
