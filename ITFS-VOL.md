@@ -1,9 +1,4 @@
 # VOL/A.
-* wörtlich kennen
-* §2 aufsagen: "Leistungen sind unter ausschließlicher Verantwortung der Beschaffungsstellen an fachkundige, leistungsfähige und zuverlässige Bewerber zu angemessenen Preisen zu vergeben. Hierbei soll der Wettbewerb die Regel bilden. Ungesunde Begleiterscheinungen sollen bekämpft werden."
-* Im Gespräch mit Bieter muss man Fachkundigkeit unter Beweis stellen. Deshalb Fachbegriffe kennen.
-* Vertragsmäßiger Gebrauch ist maßgeblich.
-
 ##Was ist das? (Grundlagen) 
 * Öffentliche Hand ist der allergrößte Auftraggeber überhaupt in unserem Land
     * Zusammengenommen größtes Budget
