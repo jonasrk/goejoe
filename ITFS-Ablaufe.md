@@ -19,10 +19,10 @@
 ### Zeitachse: Welche Aktivitäten haben Auftraggeber und Auftragnehmer zu absolvieren?
 
 ### Abnahme
-    * Wechselspiel aus Mängelanzeigen und Mängelbeseitigung
-    * Beim Probebetrieb alles protokollieren
-    * Hier entscheidet sich, ob man Leistung abnimmt oder nicht abnimmt
-    * Rechnungstellung und Zahlung
+* Wechselspiel aus Mängelanzeigen und Mängelbeseitigung
+* Beim Probebetrieb alles protokollieren
+* Hier entscheidet sich, ob man Leistung abnimmt oder nicht abnimmt
+* Rechnungstellung und Zahlung
 
 ## Ausschreibungen
 ### Was sind die grundsätzlichen Probleme bei Ausschreibungen?
