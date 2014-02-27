@@ -19,7 +19,7 @@
 * Am Scheideweg stehen keine Wegweiser
 * Organisieren heißt, dem Zufall keine Chance zu lassen
 *  Think big, act small -> Gesamtdesign im Auge haben
-*  Prognose sind schwierig, besonders über die Zukunft
+*  Prognosen sind schwierig, besonders über die Zukunft
     * Zorn hat sich fast immer getäuscht
 
 # Grundsätze und Grundsatzfragen
