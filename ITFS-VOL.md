@@ -40,6 +40,7 @@
 * Ausnutzung marktbeherrschende Stellung / Monopol
     * Monopolist kann fast alles diktieren
     * i.e. Ausschalten des Wettbewerbs
+
 ### Angemessene Preise
 * Am Markt allgemein durchgesetzt
 
