@@ -97,3 +97,24 @@
 * Unterschiedliche Entwicklungen, Qualitätskriterien
 * Wecker Anekdote
 * IT-Projekte müssen so gestaltet werden, dass sie abgebrochen werden können (nicht Mülleimer, sondern neu aufsetzen)
+
+* Bsp Wandrey: Hat er den Kriterien genüge getan?
+    * Zuverlässig ja, 
+    * Fackundig:
+        * Wenn Gebote blind abgegeben - Welche Kriterien?
+            * Beschaffungsstelle trägt Verantwortung für richtigen Zuschlag
+            * Erfüllung, i.e. Referenzen
+            * Wandrey hatte keine, weil bei Infosystemen ...
+        * An welchem Eigenschaften orientieren?
+            * erfolgskritisch: Das zweite
+    * Von Anforderung bis zum Werk Folie
+        * Hat gesagt, dass er in neues Geschäftsfeld will
+    * In Ausschreibung kommt nicht alles in idealer Form
+    * In Anwendung fit aber in Umsetzung unerfahren
+    * bei Neuanwendng gibt es weder Massen-Bedarf noch Massen-Know-How
+    * Man hätte direkt am Anfang sagen können, dass es keinen Bieter gibt
+    * Anforderungsspezifikation nochmal überprüfen
+    * Konsequenz: Teilung des Projekts: Anforderungsanalyse und Ausschreibung
+    * Welche Auswirkungen hätte das für die Architektur des Systems?
+        * Datenmodell ist Grundbestandteil
+        * Allgemeine und Spezifische Schicht
