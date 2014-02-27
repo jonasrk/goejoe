@@ -26,7 +26,7 @@
     * hat sich lange genug am Markt behauptet
 * Referenzen, Fachkunde, Erfüllung
     * Wer ist Fachabteilung?
-    * Beschaffungsstelle hat kein IT KnowHow, oft Juristen, prüfen Verträge auf Vollständigkeit und Sinnhaftigkeit
+    * Achtung: Beschaffungsstelle hat kein IT KnowHow
 
 ## Wettbewerb?
 * mehr als ein Bieter
