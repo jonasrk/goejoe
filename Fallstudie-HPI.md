@@ -13,7 +13,7 @@
         * Abnahmeverzug
     * unklare Anforderungen
         * Bsp: WIS und alle wo gesagt wurde "es soll alles können, was das alte konnte"
-        * juristisch, Pauschalklausel, wenn einzelne Bedinungen nicht sind, sind sie durch möglichst nahe kommendes zu ersetzen -> für Einigungszwang, aber sehr pauschel
+        * juristisch, Pauschalklausel, wenn einzelne Bedinungen nicht sind, sind sie durch möglichst nahe kommendes zu ersetzen -> für Einigungszwang, aber sehr pauschal
             * wenn jemand aus Vertrag raus will
             * mindestens gleichwertige Ersatzleistungen
 * **Weiteres**
@@ -21,7 +21,7 @@
         * Wenn ich es abnehme, muss es Bestand haben
     * Abnahme ist wegen komplexen Netz-Infrastrukturen schwierig geworden
         * Was kann man abnehmen?
-* "Grundsätlich" ist im Juristischen immer Hintertür
+* "Grundsätzlich" bedeutet im Juristischen immer: Hintertür!
 
 ## 3# HP Fallstudie
 * Viele Akteure
@@ -43,10 +43,10 @@
     * Alles was zum Gericht führen kann ist zu vermeiden. Daher sollte man sich darauf vorbereiten
 
 ## 4# Beteiligte Einrichtungen
-* Architekt, Bauherr Plattner Sitftung, Landes- und EU-Zuschüsse, Consultant Düsenhieb, HPI Siegfried Wendt, Generalunternehmer mit zig Unterauftragnehmern
+* Architekt Wacker, Bauherr Plattner Sitftung, Landes- und EU-Zuschüsse, Consultant Düsenhieb, HPI Siegfried Wendt, Generalunternehmer mit zig Unterauftragnehmern
 * Consultant ist im Fadenkreuz - ist Begleiter auf der ganzen Strecke
 
-###Plfichten des Auftraggebers
+### Pflichten des Auftraggebers
 * Beschaffungen von Informationen
 
 * Consultant kriegt 5% - aufgeteilt in 30/20/30 - Resthonorar nach gemeinsamer Schlussabnahme
@@ -58,7 +58,7 @@
 * Zorn kam ins Spiel, als die ins Geld wollten, "Wo ist das Abnahmeprotokoll?"
     * Es waren alle dabei und haben unterschrieben
     * rechte Unterschrift fehlt
-    * Abnahme wurde im Hinblick auf sichtbare mängel - nicht angekreuzt
+    * Abnahme wurde im Hinblick auf sichtbare Mängel nicht angekreuzt
     * Mängelliste 
 * Ist das Abnahme oder nicht?
     * Anlieferung abgenommen, aber Leistung nicht
@@ -68,12 +68,12 @@
     * Haben sich drauf eingelassen -> Resultat: Planer will jetzt Abnahme bescheinigt haben
 
 ## #6 Nachträglich durchgesetzter Abnahmetest
-* Messung schlecht - "Ihr messt falsch"
+* Messung schlecht - "Ihr messt falsch."
 * Es hat sich später spürbar etwas getan, also wurde abgenommen - irgendwann will man es auch vom Tisch haben
 * Messung war geeignetes Hilfsmittel für Abnahme um Schwachstellen zu erkennen
 * Vier-Augen-Prinzip
-* **Lehre: Es kann sein, dass VOL mäßig alles da steht, die Verantwortlichen aber nicht mit den Verträgen umgehen können und dagegen handeln**
+* **Lehre: Es kann sein, dass VOL-mäßig alles da steht, die Verantwortlichen aber nicht mit den Verträgen umgehen können und dagegen handeln**
 * Termine waren auch falsch
 * Gerüst was einem an die Hand gegeben wird hat Tücke, wenn man sich nicht daran hält
 * Kopplung von Bezahlung an Erfüllung führt zu komischem Verhalten
-* Klare AG/AN Beziehungen und halten AN VOL sind wichtig
+* Klare AG/AN Beziehungen und Halten an VOL sind wichtig
