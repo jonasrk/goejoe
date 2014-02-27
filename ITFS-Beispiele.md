@@ -53,6 +53,7 @@
         * Festpreisfähigkeit ist ganz hartes Kriterium
 * Ursünde: keine Spezifikation haben
 * Ursache fürs ganze Scheitern: Keine Regelung bei Ausscheiden eines Gesellschafters
+* Wettbewerb nicht beachtet
 
 ### Höllerer, GIS Landshut
 * AG-Rolle des Stadtplanungsamtes nicht definiert: Er wusste es nicht, niemand hat es ihm gesagt -> nicht erfüllt
