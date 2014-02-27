@@ -20,13 +20,11 @@
 
 ### Überblick IT-Vertragstypen
 * viele, aber vom Ursprung alle Kauf, Miete, Dienstleistung und Werk
-* **DIAGRAMM LERNEN**
 * Vertragsarchitektur
-* **AUCH DIAGRAMM LERNEN**
 
 ### Wie wird der Vermieter in den BGBs geschützt?
 * §543, also auf Recht zur Kündigung beim Vorliegen eines wichtigen Grundes
-    * Schlüsselwort "Zumutbarkeit"
+    * Zumutbarkeit
 
 ### Worauf kann sich AN im Konfliktfall berufen? 
 * Unmöglichkeitsklausel
