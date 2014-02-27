@@ -6,13 +6,13 @@
 * Werk
 * Dienst
 
-#### "Geschichtliche Begebenheiten" der verschiedenen Vertragstypen
+#### Geschichtliche Begebenheiten der verschiedenen Vertragstypen
 * Kauf: Grundstücke
 * Miete: Wohnungen
 * Dienstvertrag: Arbeitsverträge
 * Werkvertrag: Hausbau
 
-#### Pflichten von AN, AG bei -Mietvertrag, -Kaufvertrag, -Werkvertrag, -Dienstvertrag.
+#### Pflichten von AN und AG bei Vertragstypen
 
 ### Übeblick IT-Vertragstypen
 * viele, aber vom Ursprung alle Kauf, Miete, Dienstleistung und Werk
