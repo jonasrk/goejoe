@@ -16,8 +16,6 @@
 * Termine
 * Preis
 
-### Zeitachse: Welche Aktivitäten haben Auftraggeber und Auftragnehmer zu absolvieren?
-
 ### Abnahme
 * Wechselspiel aus Mängelanzeigen und Mängelbeseitigung
 * Beim Probebetrieb alles protokollieren
