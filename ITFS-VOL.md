@@ -21,7 +21,7 @@
 * Leistung aus Arbeitsverhältnis muss mittlerer Art und Güte sein
 * einseitige und mehrseitige Leistungen
 
-## Kriterien die Bewerber genügen muss
+## Kriterien denen Bewerber genügen muss
 * leistungsfähig und zuverlässig
     * hat sich lange genug am Markt behauptet
 * Referenzen, Fachkunde, Erfüllung
