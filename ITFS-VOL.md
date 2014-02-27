@@ -1,4 +1,4 @@
-# VOL/A.
+# VOL/A
 ##Was ist das? (Grundlagen) 
 * Öffentliche Hand ist der allergrößte Auftraggeber überhaupt in unserem Land
     * Zusammengenommen größtes Budget
