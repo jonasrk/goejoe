@@ -40,6 +40,7 @@
 * Der firmeninterne AN wurde nicht gefragt
     * Projektgruppe wurde vom Vertrieb nicht gefragt
 * Es menschelte
+* Wettbewerb nicht beachtet
 
 ### Zeiler, Wohnungs-Wirtschafts-System
 * endgültig gescheitert
