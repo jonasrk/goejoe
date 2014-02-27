@@ -11,6 +11,7 @@
 * Unmöglichkeit des Werkes
     * es ist konkret, wenn es fertigbar ist
     * Verschiedene Themenbereiche nicht miteinander vereinbar
+* Keine richtige Ausschreibung
 
 ### HPI
 * In Verträge wurde alles reingeschrieben
@@ -43,6 +44,7 @@
 * Wettbewerb nicht beachtet
 
 ### Zeiler, Wohnungs-Wirtschafts-System
+* Keine richtige Ausschreibung
 * endgültig gescheitert
 * Spezifikation der zu erbringenden Leistung soll so genau erfolgen, dass vergleichbare Angebote zu Festpreisen gemacht werden können
     * Wir bilden Arbeitskreise und legen los
@@ -57,6 +59,7 @@
 
 ### Höllerer, GIS Landshut
 * AG-Rolle des Stadtplanungsamtes nicht definiert: Er wusste es nicht, niemand hat es ihm gesagt -> nicht erfüllt
+* Höllerer haben Ausschreibung gemacht, aber ein Teil war fehlerhaft
 
 ### Maus eGK
 * ist noch nich final beurteilbar
