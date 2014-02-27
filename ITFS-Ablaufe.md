@@ -1,5 +1,5 @@
 # Abläufe
-## Ablauf des Beschaffungsverfahrens
+##Beschaffungsverfahren
 * 2 Phasen eines Projektes
     1. Planungsphase (Preis nach Aufwand)
     2. Realisierungsphase (Festpreis)
