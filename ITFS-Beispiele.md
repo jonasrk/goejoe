@@ -41,12 +41,6 @@
     * Projektgruppe wurde vom Vertrieb nicht gefragt
 * Es menschelte
 
-### Maus eGK
-*Security
-    * nicht 100%ig garantierbar für 100% aller Betroffenen
-        * Hätte man ganz am Anfang feststellen können: Offline Datenträger für Online-System
-        * Karten gesperrt, geht 14 Tage lang nicht, ...
-
 ### Zeiler, Wohnungs-Wirtschafts-System
 * endgültig gescheitert
 * Spezifikation der zu erbringenden Leistung soll so genau erfolgen, dass vergleichbare Angebote zu Festpreisen gemacht werden können
