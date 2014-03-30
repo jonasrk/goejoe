@@ -1,6 +1,7 @@
 #1
 
 * Technologien/Entwicklungen für mehr Performance? -> Frequenz erhöhen, Caches vergrößern, mehr ILP, Parallelisierung
+    * Work Harder (clock speed), Work Smarter (optimization, caching), Get Help (parallelization)
 * Was gibt es für ILP-Mechanismen?
 * Warum parallelisieren? (Speedup, Scaleup)
 * Amdahls Law, Gustafsons Law
