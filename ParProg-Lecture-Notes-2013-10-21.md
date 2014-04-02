@@ -36,9 +36,13 @@ Two or more processes / threads continuosly change their states in response to c
 
 #### Example: Race condition
 > void echo() {
+
 >     char_in = getchar();
+
 >     char_out = char_in;
+
 >    putchar(char_out);
+
 > }
 
 #### Definition: Starvation
