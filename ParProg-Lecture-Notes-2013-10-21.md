@@ -35,11 +35,11 @@ Two or more processes / threads are unable to proceed.
 Two or more processes / threads continuosly change their states in response to changes in the other processes / threads.
 
 #### Example: Race condition
-    > void echo() {
-    >     char_in = getchar();
-    >     char_out = char_in;
-    >    putchar(char_out);
-    > }
+    void echo() {
+        char_in = getchar();
+        char_out = char_in;
+       putchar(char_out);
+    }
 
 #### Definition: Starvation
 A runnable process / thread is overlooked indefinitely.
