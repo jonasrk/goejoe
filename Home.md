@@ -1,4 +1,4 @@
-[FIT]{/FIT)
+[FIT](/FIT)
 
 [IT Fallstudien](/IT-Fallstudien)
 
