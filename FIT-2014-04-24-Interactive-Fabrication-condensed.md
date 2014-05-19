@@ -43,7 +43,7 @@
 ## interactive fab pros
 * wysiwyg, test objects incrementally
 
-## interactive fab pros
+## interactive fab cons
 * no undo, precision, zooming
 
 ## fab around a virtual model
