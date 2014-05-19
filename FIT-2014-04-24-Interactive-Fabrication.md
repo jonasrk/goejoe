@@ -1,5 +1,5 @@
 # FIT 2014_04_24 Interactive Fabrication
-## replicavaton of information objects
+## replication of information objects
 * using words
     * synchronous
     * co-located
