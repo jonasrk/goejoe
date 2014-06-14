@@ -1,0 +1,1 @@
+How to not need pw for sudo. For iodine e.g. -> http://askubuntu.com/questions/192050/how-to-run-sudo-command-with-no-password
