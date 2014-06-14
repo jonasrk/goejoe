@@ -1,3 +1,5 @@
+[ServerConfig](/ServerConfig)
+
 [FIT](/FIT)
 
 [IT Fallstudien](/IT-Fallstudien)
