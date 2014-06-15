@@ -41,6 +41,7 @@
 
 ## Shannon
 * 101€ Flug (22.08. -29.08.)
+* Ryanair Flüge werden 2 1/2 Monate vorher teurer
 
 * 2 Gäste AirBnB: 
 * 6 Gäste AirBnB: 
