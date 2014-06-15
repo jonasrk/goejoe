@@ -1,14 +1,20 @@
-[ServerConfig](/ServerConfig)
-
 # SS14
 [FIT](/FIT)
 
-## WS1314
+# WS1314
 [IT Fallstudien](/IT-Fallstudien)
+
 [IT Fallstudien **brushed**](/IT-Fallstudien-brushed)
+
 [ParProg Fragen](/ParProg)
+
 [Fallstudien-neu](/Fallstudien-neu)
+
 [noblog](/noblog)
+
 [SWT-Klausurvorbereitung](/SWT-Klausurvorbereitung)
+
+# other
+[ServerConfig](/ServerConfig)
 
 [bday](/bday)
