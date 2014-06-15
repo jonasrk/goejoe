@@ -1,41 +1,14 @@
 [ServerConfig](/ServerConfig)
 
+# SS14
 [FIT](/FIT)
 
+## WS1314
 [IT Fallstudien](/IT-Fallstudien)
-
-
 [IT Fallstudien **brushed**](/IT-Fallstudien-brushed)
-
 [ParProg Fragen](/ParProg)
-
-
 [Fallstudien-neu](/Fallstudien-neu)
-
-Lukas Stipendiatengruppe Blog: http://el.blogsport.de/
-
-Hello Wiki!
-
-*Ich war hier.*
-
 [noblog](/noblog)
-
-Server:
-
-1: 2x forever ghost, 1x gollum, 1x while true git push, 1x iodine, htop
-
-2: finch
-
-3: irssi
-
-4: raspberry
-
-5: liquid
-
-Write Blog article about Virtualhosts.
-
-sysv-rc-conf is new chkconfig
-
 [SWT-Klausurvorbereitung](/SWT-Klausurvorbereitung)
 
 [bday](/bday)
