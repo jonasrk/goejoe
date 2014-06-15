@@ -16,5 +16,3 @@
 
 # other
 [ServerConfig](/ServerConfig)
-
-[bday](/bday)
