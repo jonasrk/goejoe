@@ -16,3 +16,4 @@
 
 # other
 [ServerConfig](/ServerConfig)
+[AugustReise](/AugustReise)
