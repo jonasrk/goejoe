@@ -13,7 +13,7 @@
 * 6 Gäste AirBnB: 
 
 ## Rom
-*89€ Flug
+* 89€ Flug
 
 * 2 Gäste AirBnB: 
 * 6 Gäste AirBnB: 
