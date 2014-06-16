@@ -41,3 +41,41 @@
 * experiments are questions to nature
 * nature responds with data
 * statistics are the tools to interpret the response
+
+
+# Future Interactive Technologies - Video - 2014_06_05 Science Intro, Debugging Raw Data, t-tests (Patrick) 2
+## what can go when processing study results?
+* scientific dishonesty: mostly non-publishing of unfavored results
+
+## human reaction time
+* stay on same level, high at beginning, fluctuating?
+
+## outliers
+* how do you justify removing outliers
+* created by other external factors
+* it seems less likely that it just took the person long
+
+## learning period
+* remove it? it depends!
+* if the study is about learning, keep it. elsehow, not.
+
+## histogram
+* see distribution better
+* but you loose exact timing
+* first look at a raw bar chart and then start aggregating
+
+## what would histogram of human reaction time look like?
+* infinite or finite to the left or right?
+* right infinite, no upper bound
+* not symmetric because bound on one side and no bound on other
+* depending on how much repetitions you have irregularities can happen
+ 
+## debugging results
+* trad snapping anectode
+	* programming bug led to unusual results
+
+## summary
+* look at raw data first
+* learning or fatigue
+* bugs in your apparatus
+* side effect: by spending more time with your data you might notice something that can lead to your next idea
