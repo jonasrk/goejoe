@@ -79,3 +79,74 @@
 * learning or fatigue
 * bugs in your apparatus
 * side effect: by spending more time with your data you might notice something that can lead to your next idea
+
+
+# Future Interactive Technologies - Video - 2014_06_10 t-tests, Stats Design Basics (Patrick)
+## conditions
+* how can we learn about underlying mechanisms?
+* finding out something about the contents of a black box (can be directly observed?)
+
+## stats
+* mechanism of science
+
+### significance
+* result is unlikely to have occured by chance
+
+### p-value
+* probability that something observed is at least this unlikely to happen
+
+### significance level
+* test gives p-value lower than significance level, the null hypothesis is rejected
+
+* Why 5% in HCI?
+	* just a convention
+* different e.g. with life-threatening effects
+
+* you always try to observe is two mechanisms are identical or different
+
+* means do play a role, but so does standard deviation
+
+## t-test
+### intro
+* general tool to solve many issues
+* many phenomena take place on a global scale and are not personally observable
+* you need to understand global level things -> therefore understand stats
+* tools are needed to understand the fate of mankind
+
+### student's t-test
+* implemented in Python, Excel, SPSS
+* some packages first give t-value -> not today
+* Why not Gosset's t-test? Not allowed at guiness company
+* data has to be normal distributed
+* for unknown standard deviation
+* our reaction time data has to be transformed
+
+### you make a new input device and what to show that it is as good as the mouse
+* you can't show that something is the same
+* if tests find significant difference you can't make any conclusions
+
+#### classic engineering vs. scientist question
+* very scientific analasys that doesn't really fit here
+
+#### why does "my device is better with p < 0.0000001" not impress?
+* we don't know how much better
+
+## stats design basics
+* compare new mouse design with old one - how to proceed with 24 participants?
+
+### power of stats test
+* paired test has greater power than unpaired
+* one-tailed or two tailed?
+	* new drug about hairloss? one-tailed or two-tailed?
+	
+## bonferroni correction
+* 10 different devices: compare each with each other
+* many misconecptions about repeated testing - bost of them can be fixed by bonferroni
+
+## planned comparison
+1. avoid sequence effects
+2. counterbalancing
+* avoid confounding
+
+### latin square
+* limitations? 
