@@ -150,3 +150,52 @@
 
 ### latin square
 * limitations? 
+
+
+# Future Interactive Technologies - Video - 2014_06_12 Stats Bootcamp (Dominik, Alex) 1
+## längliche französische Filmausschnite über ein Experiment
+* elektrischer Stuhl
+* what's the purpose of this experiment?
+* person on the electric stool is just playing the shocks
+* different conditions: participants in same room or different
+* purpose was to find out how much voltage people put on the pupil
+* 65% of the population goes up to 450 Volt
+* after WW2 people wanted to find out what's wrong with people
+* underlying theory: anyone can end up in a violent system using torture
+* participant got 6$ - but most said they didn't do it for the money
+* people explaned they were just following orders
+* is this science/engineering?
+
+* why is this science?
+* there was a general observation and they tried to explain it
+* good science: you have a model, you make predictions, you run experiments
+
+## Dominik Stats Bootcamp
+* make the three participants file one file
+* independent variables in study?
+* gesture flat or tip, number of fingers, set size
+* what were the hypothesis?
+* combined sets had a longer reaction time
+* flat takes longer because its more complicated
+* how will these variables related to each other?
+* should we expect interactions?
+* main effects vs. interactions
+
+## SPSS tutorial
+* variables should be 7 chars or sharter
+* e.g. time of first contact ... 
+* sometimes numbers are just names
+
+### is numbers of fingers ordinal?
+* yes, because more fingers is more than fewer fingers ... but their order depends
+
+* data is plotted as scatter plot
+* cheat sheed will be handed out
+
+### is there something interesting in the scatterplot?
+* is milliseconds scale? -> fucked up scale becuase there are zeros which is impossible
+* overall the data looks plausible
+* long time might mean that a participant did not take the experiment serious
+* use SPSS to filter out
+* plot boxchart
+* SPSS generates protocol and that has to be saved and submitted for assignment
