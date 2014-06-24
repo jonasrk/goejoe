@@ -199,3 +199,36 @@
 * use SPSS to filter out
 * plot boxchart
 * SPSS generates protocol and that has to be saved and submitted for assignment
+
+
+# Future Interactive Technologies - Video - 2014_06_12 Stats Bootcamp (Dominik, Alex) 2
+## SPSS Besprechung barchart as expected?
+* surprising or expected?
+* surprising: 19 out of 20 did something wrong
+
+### how to resolve situation?
+* take this person out?
+* fix bug and rerun?
+* if lots of data is missing you have to rerun experiments
+* drop one gesture?
+* doing stats is not about dropping stuff on paper
+* we assume an debug and rerun
+* we use time of first contact time in this case
+
+* data still makes sense on the scatterplot
+
+* how does this effect the hypothesis?
+* next: histogram of the data to see if it is normal distributed
+* distribution per patrick
+
+### what do two peaks mean?
+* two different participants
+
+* next histogram and variables
+
+* logarithm data
+
+* filter out outliers
+
+* tadaa: hypothesis is not working out here
+* long green bars - we expected short green bars
