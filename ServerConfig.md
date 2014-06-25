@@ -5,3 +5,5 @@ Autostart tmux session -> http://reinhard-seiler.blogspot.com/2013/05/tutorial-h
 * make tmuxinator startup init.d script booting with sudo update-rc.d tmuxinator.sh defaults
 
 Irssi configuration -> http://askubuntu.com/questions/61549/how-do-i-configure-irssi
+
+NEEDED: Server mod_proxy implementieren http://buecher.lingoworld.de/apache2/mod_proxy.html
