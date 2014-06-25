@@ -232,3 +232,44 @@
 
 * tadaa: hypothesis is not working out here
 * long green bars - we expected short green bars
+
+
+# Future Interactive Technologies - Video - 2014_06_12 Stats Bootcamp II (Dominik, Alex, Patrick) 1
+## recap
+* last time we wanted to analyze the data from students hicks law study
+* data was screwed, usually we would have debugged the data. In this case we made a compromise to get through the whole process.
+* What was the hypothesis? More finger take more than less fingers. Flat takes longer that tip.
+* Bar charts looked as expected
+
+## next: statistical tests
+* logarithm time
+* outlier removal (analyze -> descriptive tests)
+* remove all outliers that are more than two standard deviations away
+* Next: Analysis of Variances (kind of generalized t-test)
+* -> data -> aggregate : create a new dataset
+
+* use people to approximate population
+* if your sample is not good you do not catch a lot
+* you need a decent size sample to get representative data
+* Hick's law is so basic that it should be the same for everyone
+* variation across participants valuable
+
+* unrelated: people should do a startup that should replace SPSS
+
+* now there are only three rows that tell you everything about the three participants
+
+## Run the ANOVA
+* generalized linear model -> ...
+* IV short for independent variable
+* EXAM: define independent variable
+
+### IVs
+* flat or tip
+* numbers
+* ?
+
+* We need to make sure to have the right order of the IVs
+
+### What does the table mean?
+* The chance for this or something more extreme to happen was 25%
+*  
