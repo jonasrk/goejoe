@@ -298,3 +298,61 @@
 
 ### how many participants does a study need?
 * small effect: 783, medium: 85, large: 28
+
+# Future Interactive Technologies - Video - 2014_06_19 Jack Lindsay
+## Optimizing Agriculture
+* start-up trying to improve farming
+* optimize water use (4/5 go to irrigation)
+* famers might spend 200 000$ on water
+* fertilizer is even more expensive
+* power consumption
+
+* large farms produces 95%
+
+## Let's make some data
+* What's worth measuring?
+* Rainfall, where and how much
+
+* e.g. california had droughts
+* soil chemistry: not real time and only for a single point
+* drainage
+
+* wind patterns
+* plant stress
+
+## what can we do with it?
+* build a bunch of cheap sensors?
+* drones start to happen
+
+## Data analysis
+* Geophysics
+* Weather prediction
+* plant biology
+* uncertainty in best practices
+* -> A Market for Algorithmus will evolve
+
+## User Interface
+* understand farmers perspective
+* demonstrating uncertainty -> greyscale the picture of what to to where how much
+* managing liability -> who is responsible for failures?
+* maintaining control -> how to recommend data
+* managing the load on the grid -> get rid of peaks
+
+## end of monoculture
+* easy, but terrible for the world
+
+## Thoughts?
+* Where are the users in east germany? -> a lot of corporate control. but there is still be people running it.
+* how many people? -> hierarchy with only a few people
+* european union beurocracy? -> 
+* sample of the engineering? -> picture of integrated solid weather station
+	* foot high, rein sensor with piezo, solar panel
+	* process data in realtime? yes
+	* rein sensor is very easy on processing
+* how is data transferred? -> cell network similar to cellsensors. if you have enough, you can create a mesh
+* sunlight not accurate for evaporation
+* how much does it bend for sensing wind? tricky problem. you need material in the realm of infinite fatigue
+* pricepoint? 200$ for one. km^2 needs in between 1-3 to 1 per acre
+* ice wine is super hard and risky
+* crossing the chasm book: you need an early adopter
+* could the system suggest what to plant? yes.
