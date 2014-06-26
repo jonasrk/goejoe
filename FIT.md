@@ -272,4 +272,29 @@
 
 ### What does the table mean?
 * The chance for this or something more extreme to happen was 25%
-*  
+
+# Future Interactive Technologies - Video - 2014_06_12 Stats Bootcamp II (Dominik, Alex, Patrick) 2
+## Continue Testing
+
+## Line chart
+* does the line chart correspond to the former bar chart
+
+* before you run the thing ask your self what you expect to see
+* in the example a significant main effect was found
+* write down f and p values
+
+* End of Dominiks SPSS Tut
+
+## what would be a better way to handle SPSS?
+
+## task time, but what about error?
+* task time and error, if both is higher, which is better?
+
+### how can you make them comparable?
+* utility theory: come up with a formula
+* you can push people to do roughly around the same level of error
+* less common: keep task time constant
+* sample whole space
+
+### how many participants does a study need?
+* small effect: 783, medium: 85, large: 28
