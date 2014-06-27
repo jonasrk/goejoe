@@ -20,3 +20,5 @@
 [AugustReise](/AugustReise)
 
 [/MacCommandlineTools](/MacCommandlineTools)
+
+Unsecured Webcams: http://jason-porter.net/misc/how-to-find-unsecured-webcams/
