@@ -356,3 +356,52 @@
 * ice wine is super hard and risky
 * crossing the chasm book: you need an early adopter
 * could the system suggest what to plant? yes.
+
+# Future Interactive Technologies - Video - 2014_06_19 Experimental Design (Patrick)
+## startups
+* stuff regarding environment should have our attention
+* flying to conference - environmental impact?
+	* how to bring in environmental topic
+
+## causality
+* how to design experiment that shows that depression medicine works?
+
+## placebo effect
+* even the worst supplement is medication?
+* to get placebo effect it has to be a blind study
+
+## blind
+* participant does not no
+
+## double blind
+* how to conduct one in this case? (depression medicine)
+* -> devide your team into groups
+* why to participants have to be assigned randomly?
+* twins are good for studies
+
+* intelligence experiments with identical twins are cool
+
+* hire two experimenter: ramdomzie, add placebo, administer ...
+
+## causality
+* we want to show that A causes B
+
+### correlation
+* A change in A occurs with a change in B
+* order: show that a occurs before B
+* no hidden cause: show that there is no C that causes A and B
+
+* var A IV B - everything else: controlled variable
+* confounding variable that correlates with dependent and independent
+
+* full factoral design
+
+* if I find a difference between numners I no nothing with confidence
+
+* what causes something to be better?
+
+* principle of science: experiment ... but what is source of knowledge?
+
+* avoid systematic biases because they lead to false results
+* also avoid random noise
+* experimental design -> engineering problem (/design) -> fail early and often (pilot studies)
