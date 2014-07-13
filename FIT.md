@@ -405,3 +405,78 @@
 * avoid systematic biases because they lead to false results
 * also avoid random noise
 * experimental design -> engineering problem (/design) -> fail early and often (pilot studies)
+
+
+# Video - 2014_06_26 Wearbles (Serafima)
+## x.posed
+* raise awareness
+
+## Def
+* miniture body-borne computational and sensory devices
+
+* devices should provide hands-free interaction
+
+## Serafimas Def
+* devices that augment humans without getting in the way
+* pro-active behavior. wearables act on user's behalf (eg. perform tasks or notify user)
+
+* agent-based systems
+* computational systems that sense and act autonomously
+
+## direct manipulation vs interface agents
+* user modelling is complicated
+* using control
+* we live in a direct manipulation world
+
+## history
+* 1966 roulette prediction
+* Steve Mann
+* subject to fashion
+* new threshold in aesthetics
+* need to be either gorgeous or invisible
+
+## social message
+* bluetooth headset -> important person
+
+* '89 private eye
+* '14 google glass
+* tactile displays
+* textile display
+
+* twiddler, cording keyboard
+
+* BioStamp, patch on skin
+* LilyPad Arduino
+
+* batteries have become small
+
+* difference between yarn and thread?
+
+* conductive make-up
+
+* SixthSense
+
+* Fido for dogs
+
+## military
+* '89 early systems
+* 2000 LandWarrior
+
+* AMON measures blood
+
+* google smart contact lens project analyzes tears
+
+* thinking shoes?
+
+* Cyberia, Rantaanen, GPS, GSM, temperature sensor
+* air-conditioned clothes
+* printing dress
+* personal space dress, extends if someone comes to close
+
+* under(a)ware informs you if there are RFID readers
+
+* generalist vs. minimalist approach
+
+## future directions
+* Steve Mann cyborgism
+* Implanted UIs, Holz
