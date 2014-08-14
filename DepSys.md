@@ -92,3 +92,35 @@
 * Reliance demands assessment of non-functional dependability attributes
 * Provide ability for trustworthy service delivery by dependability means
 * Undesired (maybe expected) circumstance form dependability threats
+
+# DepSys - Dependability Threats & Faults - 3 Dependability Tree
+* Tree is terminology framework
+    * Attributes, means and threats
+* security and dependability historically not too good friends
+* security: CIA triangle
+* dependability has a solid mathematical framework
+* there is a tendency to put security in dependability attributes
+* this stuff was invented when there was no internet
+
+## Threats
+* Fault is the origin
+* Question: does fault lead to failure?
+* with a fault the system may still work - fault tolerance
+* most mechanisms prevent failures
+* * failure: system does not work as specified
+* error: "Fehlerzustand" - part of system state that can lead to subsequent failure, prevent with fault tolerance!
+
+## Attributes
+* measure your efforts
+
+# DepSys - Dependability Threats & Faults - 4 Chain of dependability Threats
+* example: one cpu fails - when does the computer fail?
+	* how much memory can fail until the system breaks?
+
+* subsystems failure becomes the root fault for a higher level
+* activation, propagation, causation
+
+## Netflix Software Architecture
+* possible error propagation chain?
+	* how does this architecture prevent it?
+* go in each and every box and reason about what happens if this component fails, also probability
