@@ -66,7 +66,7 @@
 	
 ## System Type Examples
 * Dependable (reliable) Systems: Delivers required service during its lifetime
-	* Reliabilty: "Doing something as long as required without interruptions"
+	* Reliabilty: "Doing something as long as required without interruptions" -> "Car should not stop to drive."
 * Fault-tolerant computer system: Continues correct service provisioning in the presence of faults
 	* Fault-tolerance: "We accept the fact that something breaks, but system is designed to deal with this"
 * Realt-time computer system: Deliver a service given time constraints.
