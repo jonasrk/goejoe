@@ -152,7 +152,7 @@
 * typical: operational conditions are underspecified.
 * replacing broken version of same component leads to recurrent faults (bad in software - e.g. memory leaks)
 
-* transient fautls: temporary external accidental physical faults
+* transient faults: temporary external accidental physical faults
 * intermittent faults: temporary internal accidental faults (e.g. system overload)
 
 * a fault is active when it produces an error
