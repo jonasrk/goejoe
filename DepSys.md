@@ -124,3 +124,39 @@
 * possible error propagation chain?
 	* how does this architecture prevent it?
 * go in each and every box and reason about what happens if this component fails, also probability
+
+# DepSys - Dependability Threats & Faults - 5 Faults
+## What kinds are there?
+### Fault nature
+* accidental faults (e.g. physical)
+* intentional faults (e.g. attacks)
+
+### origin
+* physical/natural (prevention: higher quality hardware, cooling, EM-shielding)
+* human-made (prevention: multiple eyes, testing, ...)
+
+### system boundaries
+* internal (part of system state)
+* external (interference with environment)
+
+### phase of creation
+* design faults
+* operational faults
+
+### temporal persistence
+* permanent faults (prevention: redundancy)
+* temporary faults (you may even work without redundancy - e.g. retry)
+
+# DepSys - Dependability Threats & Faults - 6 Observations on Faults
+## Is an external fault a design fault?
+* typical: operational conditions are underspecified.
+* replacing broken version of same component leads to recurrent faults (bad in software - e.g. memory leaks)
+
+* transient fautls: temporary external accidental physical faults
+* intermittent faults: temporary internal accidental faults (e.g. system overload)
+
+* a fault is active when it produces an error
+* a non-active internal fault is a dormant / passive fault
+* Heisenbug, Bohrbug, Mandelbug
+
+* Fault-tolerant system design is a contradiction
