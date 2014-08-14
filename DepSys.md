@@ -72,7 +72,7 @@
 * Realt-time computer system: Deliver a service given time constraints.
 	* Typical: Safety controllers
 
-# DepSys - Dependability Threats & Faults - 1 System Integration Levels
+# DepSys - Dependability Threats & Faults - 2 System Integration Levels
 * Where to start make a Java EE Application reliable?
 	* Put it in a virtual machine?
 	* We need to know what fails most often!
