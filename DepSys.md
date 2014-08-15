@@ -160,3 +160,81 @@
 * Heisenbug, Bohrbug, Mandelbug
 
 * Fault-tolerant system design is a contradiction
+
+# DepSys - Faults & Errors - 1 Recap
+## What is Dependability? / What is a dependable system?
+* Dependable Systems are available and reliable.
+* We have an expectation of how a system should work. If this expecatation is fullfilled, then we have a dependable system.
+* Non-functional attributes: It is about how a system is doing something - not about what it is doing.
+* Specification is needed! Dependability is about this.
+
+## Threats
+* Difference between faults, errors and failures?
+	* originating fault (Fehlerursache)
+	* errorous state
+	* system failure
+
+* Fault tolerance?
+	* every activated fault leads to an error
+	* then you have mechanisms to prevent failures
+	
+* Chain of Dependability Threats: Fault activates Error - Error propagates Failure - Failure causes Fault of higher level system
+
+## Faults
+* What are my threats? What has a high likelihood to happen?
+	* permanent (e.g. real programming bug) vs. temporary (may go away by itself)? 
+		* how to protect me from it?
+			* retry or redundancy?
+	* accidental vs. intentional
+		* include malicous attacks
+	* physical vs. human-made
+		* temperature, humiditiy, ...
+		* people not following manual
+	* design vs operational
+		* code-review, testing
+		* bad data import
+* transient faults is what happens to hardware
+* intermittent are similar to transient but internal
+* physical faults are always accidental
+
+# DepSys - Faults & Errors - 2 Fault Characterization
+## Laprie & Kanoun
+* What can happen?
+
+## Fault Model
+* Research is all about hardware - does not exist about software
+* physics, circuit level ...
+
+## Physical Faults
+* biggest problem: memory problems
+	* energized particles from space
+* lowest level possible: transistors
+
+# DepSys - Faults & Errors - 3 Fault Model for Semiconductor Memories
+* Who's responsible to deal with these faults?
+	* MemCheck
+	* but at runtime?
+* any kind of fault tolerance costs you material, cycles or performance
+
+## onion ring model
+* what can happen on system level?
+* fault model (should be called failure model)
+
+* fail stop fault: system stops all operations, notifies the other ones
+* crash fault: system looses internal state and stops without notifications
+* omission fault, timing fault, computation fault
+* byzantine fault: all-inclusive class / every possible fault
+
+# DepSys - Faults & Errors - 4 Errors
+* Errors maybe propagate through the system or even failures
+* escaleates depend on redundancy, system activity and specification of the failure case
+
+## Hardware Error Models
+* hardware faults effect state information
+* single data error or single code error
+
+* same fault in different locations can have different fault classes
+* avoid originating causes to avoid error cases
+
+* in software?
+- 9:36
