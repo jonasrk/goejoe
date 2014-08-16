@@ -224,3 +224,148 @@
 * crash fault: system looses internal state and stops without notifications
 * omission fault, timing fault, computation fault
 * byzantine fault: all-inclusive class / every possible fault
+
+# DepSys - Faults & Errors - 4 Errors
+* Errors maybe propagate through the system or even failures
+* escaleates depend on redundancy, system activity and specification of the failure case
+
+## Hardware Error Models
+* hardware faults effect state information
+* single data error or single code error
+
+* same fault in different locations can have different fault classes
+* avoid originating causes to avoid error cases
+
+* in software?
+
+* what software deals with error states internally?
+	* operating systems deal with error situation
+		* unplugged USB device?
+	* file systems are really good in dealing with error states
+	* version control systems?
+		* fault model?
+	
+# DepSys - Faults & Errors - 5 Software Error Models
+* syntactical and semantical errors
+* under research in software engineering field - usually through field studies
+
+## Error propagation
+* same as before
+
+* typical way of detecting an error?
+	* log messages
+* fault -> undetected -> detected -> error message
+
+# DepSys - Failures - 1 Recap
+## Dependable Systems
+* Attributes we want to care about with dependability means
+* Example for an error state?
+	* BitFlip
+* When do we know that we have a system failure? / Difference between fault and failure?
+
+## Fault Models
+* follow well defined principles to classify faults (e.g. onion model)
+	* if you protect yourself from outer layers you protect inner layers for free
+* vulnerabilities as security faults
+
+# DepSys - Failures - 2 Hazards
+* A hazard is a safety error
+* active hazard situation is leading to loss event called accident
+* harard analysis demands critical thinking
+* example: water boiling kettle
+	* what could go wrong?
+		* water leakage
+		* broken wire
+		* overheating due to lack of water
+		* ...
+		
+# DepSys - Failures - 3 Failures
+* Fail-silent systems - incorrect results are not delivered
+* fail-stop - constant value is delivered
+* software can work well with fail-silent
+* fail-silent is harder to implement
+* fail mode domain - what is influenced
+	* value failures - service results
+	* timing failures - service timeliness
+	* stopping failures - service availability
+* thing in error states and build fault-tolerance around this
+
+# DepSys - Failures - 4 Failure Severity
+* How big is the problem?
+	* What is critical and what is not critical?
+* Catastropic failures
+	* cost of failure mich larger than service benefit
+* stopping failure: catastrophic in flying airplane - benign in train
+* definition in airplanes:
+	* catastrophic: loss of ability to continue safe flight and landing
+	* major: reduced airplane or crew capability to cope with operating conditions
+	* minor: no significantly reduced safety
+	* no effect
+* likelihood and severity matrix
+
+## failure types
+
+## swiss cheese model
+* medical research
+* not let errors propagate through
+
+# DepSys - Failures - 5 Observations on Failures
+* heavy loaded system -> higher activation chance
+* system have wear out
+* memory leaks in software = software wear out
+
+## Means for Dependability
+* fault tolerance should be error tolerance
+* fault forecasting: think about what might happen
+
+* fault intolerance techniques: fault prevention, removal
+* fault tolerance techniques: fault forecasting, tolerance
+
+# DepSys - Failures - 6 Fault Prevention
+* Specific approaches for avoiding faults
+	* general engineering procedures
+	* software engineering procedures, ...
+* Fault Removal
+	* testing (test coverage: percentage of code covers)
+* golden unit: reference system for comparison of output for a giving input (e.g. reference implementation)
+
+* is easier to put a lot of effort in to software testing than later deal with the error states (hardware is different)
+
+# DepSys - Fault Tolerance - 1 Means for Dependability
+* offline techniques:
+	* Fault removel: Take bug out that is already in there
+	* prevention: make sure they get not introduced in the system
+* online technique: tolerance - at runtime detect and react on error
+* forecasting
+
+* golden unit in software is reference implementation (e.g. old version)
+
+# DepSys - Fault Tolerance - 2 Fault tolerance
+* k-fault: how many faults can the system deal with at the same time?
+* tolerance is the use of redudnancy (time or space) to achieve the desired level of system dependability
+
+* redundancy in biology?
+	* two kidneys
+	
+* when do you have enough fault tolerance?
+
+* knowing is not possible - you can only make very good estimations
+
+# DepSys - Fault Tolerance - 3 Phases of Fault Tolerance
+* fault tolerance mechanisms has to detect errors (e.g. software raid)
+
+* Latent fault - fault activation -> error - error detection -> error recovery / mitigation -> normal operation - fault treatment
+* error detection - damage confinement - error processing recovery / compensation - fault treatment
+
+# DepSys - Fault Tolerance - 4 Error Detection
+* two redundant copies to see that you have a problem, three copies to know who has a problem
+
+## replication check
+* replication checks demand independent failures
+
+## timing checks
+
+## reasonableness checks
+* semantics checks on the data
+
+* replications checks are powerful and expensive
