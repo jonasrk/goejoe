@@ -224,17 +224,3 @@
 * crash fault: system looses internal state and stops without notifications
 * omission fault, timing fault, computation fault
 * byzantine fault: all-inclusive class / every possible fault
-
-# DepSys - Faults & Errors - 4 Errors
-* Errors maybe propagate through the system or even failures
-* escaleates depend on redundancy, system activity and specification of the failure case
-
-## Hardware Error Models
-* hardware faults effect state information
-* single data error or single code error
-
-* same fault in different locations can have different fault classes
-* avoid originating causes to avoid error cases
-
-* in software?
-- 9:36
