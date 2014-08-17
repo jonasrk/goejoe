@@ -369,3 +369,101 @@
 * semantics checks on the data
 
 * replications checks are powerful and expensive
+
+# DepSys - Fault Tolerance - 5 Damage Confinement
+* System decomposition
+* law-governed architecture
+	* monitor program
+* strongly typed languages
+
+## Error Processing Through
+* Forward error recovery
+	* e.g. error correcting codes
+	* e.g. non-journaling file system
+	* error is masked to reach again a consistent state (fault compensation)
+* Backward error recovery
+	* Roll back to previous consistent state
+	
+* Forward & Backward Recovery is part of database systems
+
+# DepSys - Fault Tolerance - 6 Fault Treatment
+* Fault diagnosis - what is the orinating cause?
+* Fault passivation - replace & or let system repair itself (automatic fault passivation)
+	* complicated for memory
+	* easy for storage
+* Software rejuvenation
+	* gracefully terminating and immediately restarting
+		* works for every kind of ressource leakage
+* Fault tolerant mindset
+* second mindset: "fail-fast"
+	* don't do fault-tolerance, let it crash as fast as you can
+	* if recovery is to expensive, than its better to not try to recover
+	
+# DepSys - Architectural Patterns - 1 Phases of Fault Tolerance
+* Fault tolerance is primary method of achieving reliable system
+* each undetected bug in software is latent fault
+* error state needs to be detected
+* Hamner book is about design patters for this
+* design pattern = template
+* Architectural, detection, error recovery, error mitigation, and fault treatment patterns
+
+# DepSys - Architectural Patterns - 2 Units of Mitigation
+* build system of components, define modules, modules care for themselves
+* e.g. web server, business logic, ...
+* choice of granularity e.g. based on recovery possibilites
+* unit is too small when you do not know what to do in error state
+
+## Error Containment Barrier
+* in nuke plant huge containment building
+* protect unit of mitigation boundaries
+* in software e.g. VMs or firewalls
+
+### e.g. babbling idiot problem
+* can bus in car
+* broken guy that talks whatever he wants whenever he wants
+* error containtment barrier = bus guardian
+
+# DepSys - Architectural Patterns - 3 Correcting Audits
+* Data element corruption
+* audit: go over the data, find it and maybe even correct it
+* correctnes criteria: structual criteria (linked list: does everyone have a link)
+	* known correlations (every user should have email address)
+	* sanity checks (checksum)
+	* direct comparison (raid1)
+* automatic correction is often easy
+
+## Redundancy
+* spatial (e.g. VAX)
+* temporal: retry, roll-forward
+* informational: checksum (not payload)
+
+* redundancy for performancy improvement (e.g. scalability)
+
+* Replication: Ensuring consistency between redundant resources
+	* active replication: everyone is doing the same actions
+	* passive: performs activity on one replica and transmits the delta
+	* overhead to compute the delta? are same operations even possible (not with random numbers)?
+	
+# DepSys - Architectural Patterns - 4 Example: PostgreSQL 9 Redundancy
+* shared disks or shared-nothing setup
+	* in shared nothing many repliaction modes
+* block-device
+* Point-In-Time Recovery (PITR), ...
+
+# DepSys - Architectural Patterns - 5 Humans
+* Minimize Human Interaction
+	* 
+* Maximize Human Participation
+	* Humans are good in finding originating problem
+	
+# DepSys - Architectural Patterns - 6 Maintenance Interface
+* examples? BaseManagementProcessor gets own IP address, software interface into the hardware
+* you need second entry point - completely decoupled from system
+
+## Someone in Charge
+* For every fault tolerance activity there must be a clearly identifiable responsible
+* single failure point (vs. redundancy)
+
+## Escalation
+* escalate to higher level
+* e.g. telephone switches
