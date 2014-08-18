@@ -467,3 +467,130 @@
 ## Escalation
 * escalate to higher level
 * e.g. telephone switches
+
+# DepSys - Detection Patterns - 1 Recap
+## Redundancy
+* three classes
+	* temporal: retry
+	* informational: additional peace of data that is not payload
+### spatial
+* replication
+	* how to update?
+		* active: do the same to all copies (must be deterministic)
+		* passive: actions only on one copy, others get delta
+	* table level vs. row level synchronization?
+		* table: longer waiting time
+		* tradeoff is frequency of updates cs. waiting time
+		* typically smarter to have coarse grained synchronization (at least perfomance wise)
+			* but you increase the chance to get out of sync
+			
+# DepSys - Detection Patterns - 2 Fault Correlation
+* stop detecting single faults - instead try to categorize
+	* detect classes of errors
+* prepare your systems for bug that occured in testing
+	* maybe runtime is on different machine that could lead to different errors
+	* many times at runtime other problems occur
+	
+## System Monitor / Heartbeat
+* seperate module that survails the system
+	* typically through heartbeat
+	
+## Acknowledgment / Watchdog
+* Alternative for Heartbeat
+	* nowadays normal mechanism
+* Piggybacking: ack info is included in response data frame
+
+* Watchdog: passively look on results
+
+# DepSys - Detection Patterns - 3 Realistic Threshold
+* how much time before system monitor takes action?
+* roughly how long it should take for a heartbeat to go over the wire
+* then, how many heartbeats have to be missing?
+* hypersensitive systems tend to jitter (permanent recovery)
+* assume gaussian distribution?
+* classical machine-learning mechanisms
+	* hard thresholds do not work
+* better avoid threshold and build systems that can say "i have a problem"
+
+# DepSys - Detection Patterns - 4 Voting
+* exact voting: correct result or uncertainty state notification
+* with two out of three broken devices? unrealistic, because voting happens on numerical results
+* typically devices stop delivering - therefore fail-silent
+* inexact voting: 6 position after point may not matter -> maximum discrepency (e.g. temperature sensors)
+* vote on megabytes of data? compare only checksums!
+* what happens when the voter fails? cascaded voters! but in the end you still need one ultra-reliable voters
+
+# DepSys - Detection Patterns - 5 Maintenance and Exercises
+* Routine Maintenance
+	* From time to time, trigger a failover - just to see if it works or not
+* Routine Audits (scrubbing, e.g. memory scrubbing - test all memory cells)
+* checksums - informational redundancy
+* Leaky Bucket Counter
+	* Units of mitigation -  distinguished between transient and intermittent faults
+	* counter that counts faults
+	* decrement counter from time to time
+	* originally from networking, if transient, fault will reduce again
+	* also works well for memory faults
+	
+# DepSys - Error Recovery Patterns - 1 Recap
+* most important fault tolerance pattern? can't be a single one because of different phases
+	* you need one good pattern in each phase
+
+# DepSys - Error Recovery Patterns - 2 Error Recovery
+* quarantine (e.g. state indicator from voting unit)
+* concentrated recovery
+	* downtime as short as possbile: use all ressources for recovery
+	
+# DepSys - Error Recovery Patterns - 3 Checkpoint
+* useless for design faults
+* great for transient faults (primary error recovery in high performancy computing)
+* message passing (parallel) mechanisms hard to checkpoint, solved by Chandy & Lamport
+
+## Individuals Decide Timing
+* stop doing globally recovery but solve inconsistencies at recovery time
+
+## Data Reset
+* take initial values and approximate values (e.g. sensor values)
+
+## Rollback / Roll-Forward
+* Go to next valid system state and skip current computation
+
+# DepSys - Error Recovery Patterns - 4 Remote Storage
+* store checkpoints somewhere else
+* in real-world over iSCSI
+
+## Restart
+* why don't we need checkpointing for software restart?
+	* because often the problem is part of the state
+
+## Limit Retries
+* smartphone tries to connect over and over
+
+## Failover
+* What you do with your spatial redundant ressources
+* active/active or active/passive better?
+	* if input data is reason for error in active active both will likely fail
+* dedicated spare vs. roaming spare vs. N + M
+
+# DepSys - Error Recovery Patterns - 5 Redundancy Configurations for Failover
+* N-to-1 and N+1 are special cases of Active/Passive
+* Hot standby: On failover you need no ramp-up
+* Cold standby: Standby system is off
+* spare parts are a very cold way of a failover
+
+## Dual Master Problem
+* split brain: issues on interconnect could lead to several sub-clusters
+	* typical solution: Quorum, count how many nodes you can reach
+	
+### Quorum approaches
+* central arbitration: manual
+* simple majority
+* weighted majority
+* tie-breaker
+
+# DepSys - Error Recovery Patterns - 6 Examples
+* Weighted Majority with Quorum (Sun)
+* Windows File Server
+* VMWare
+* Error Migigation: IEEE Not a Number
+	* also: Finish Wirk in Progress vs. Fresh Work Before Stale
