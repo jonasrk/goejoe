@@ -594,3 +594,113 @@
 * VMWare
 * Error Migigation: IEEE Not a Number
 	* also: Finish Wirk in Progress vs. Fresh Work Before Stale
+
+# DepSys - Dependability Attributes - 1 Attributes of Dependability
+* How to describe an measure dependability?
+* you want numerical ways to talk about dependability
+* problem with nun-functional attributes: fuzzy / weakly defined
+
+## Reliability
+* Reliability - how long is a system available without a problem
+* today in IT more measures for availability
+* difference between availabilty and reliability?
+	* availability: lifetime - available or not available
+	* availability: what percentage of time does it work?
+	* reliability: for how long will it last without a problem?
+	
+# DepSys - Dependability Attributes - 2 Observations on Dependability Attributes
+* avialability is always required
+* reliability, safety, and security may be optional
+* availability from system point of view (promise to the outside world)
+
+## Reliability  Function R(t)
+* Probability that a system is functioning properly and constantly over time period t
+
+# DepSys - Dependability Attributes - 3 Probability of Events
+* Instaneous availability and steady-state availability
+
+## PDF & CDF
+* PDF: discrete or continous random variable
+* distribution functions
+* Reliability function as continuous random variable
+* general way of talking about reliability
+* typically modelled as Poisson process
+
+# DepSys - Dependability Attributes - 4 Failure Rate
+* exponential distribution is memory-less and easy to compute
+
+# DepSys - Dependability Attributes - 5 Failure Rate in Real World
+* Hardware: Burn in, use, Wear out
+
+## Weibull Distribution
+* most widely used
+* parameterized by lambda and k
+	* k: shape
+	* lambda: scale
+* base failure rate modified by various factors
+* also used: gamma and lognormal distribution
+
+# DepSys - Dependability Attributes - 6 Steady-State Availability
+* MTTF: Mean time to failure
+* MTTR: Mean time to repair
+* MTBF: Mean time between failures
+
+* 5 nines = 5 minutes outage per year
+
+* Example: Amazon - 3 nines
+	* what happens if the promise is broken?
+	
+# DepSys - Steady-State Availability - 1 Recap
+* What are reliability and availability?
+	* reliability: continous availability over time. (mainly important for hardware)
+	* availability: what percentage of time does system not have problem?
+* PDF & CDF
+* exponential distribution destribes failure rate with only the variable lambda
+
+## unreliability function
+* reliability is 1 - CDF
+
+## steady-state availabilty
+* we assume that a system can be repaired - up-down-up phases
+
+# DepSys - Steady-State Availability - 2 Steady State Availability Example
+* How do HDD vendors get the numbers?
+	* historical data
+	* test lab (run under stress condition)
+* MTTR is provable, MTTF not
+* Users like MTTR
+* Define utility curve for recovery time
+
+# DepSys - Dependability Modeling - 1 Dependability Modeling
+* What now to do with the numbers?
+* different standards for industry
+* success space and failure space
+	* it's usually easier to define a failure state
+	
+# DepSys - Dependability Modeling - 2 Inductive vs. Deductive
+* Deductive: System has crashed, why did that happen?
+	* Fault trees
+
+## General rules
+* binary states: either down or up (crash failure model)
+* express failure probability
+	* based on reliability or availability data
+	
+* basic idea: use boolean algebra
+* talk about events
+* calculate probabilities
+
+* all other principles base on that idea
+
+### serial case
+* boolean AND
+* multiply probabilities
+
+# DepSys - Dependability Modeling - 3 Parallel Case
+
+## K-of-N
+* we have N components and need at least K running to have the whole system working
+* serial system is N out of N
+* parrallel is 1 out of N
+* typical problem: people think that the dependability model is the system design
+
