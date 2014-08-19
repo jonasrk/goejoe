@@ -704,3 +704,155 @@
 * parrallel is 1 out of N
 * typical problem: people think that the dependability model is the system design
 
+# DepSys - Fault Trees - 1 Recap
+* inductive vs. deductive modelling
+	* succes state and fail state modelling
+* events need to be independent
+
+# DepSys - Fault Trees - 2 Reliability Block diagrams
+* Building blocks for serial and parallel structures
+* also redundancy structure or k/n
+* if there is a path from s to t the system is still working
+
+* you can derive the structure formula from it
+
+* lowest actionable item
+
+## Complex RBDs
+* serial and parallel parts not always obvious
+
+* Coherent Structures: All components are crucial
+
+# DepSys - Fault Trees - 3 Fault trees
+* start model with system failure and deduct how this did happen
+* root cause analysis, risk assessment, safety assessment
+
+* RBD in success space and Fault trees in failure space
+* you can derive structure formulas from both and translate
+
+* how do you see single points of failure in tree?
+	* direct connection to system failure event
+	
+# DepSys - Fault Trees - 4 Static Fault Trees
+* Basic events: Initiating fault
+* undevelop event: basic event with no information
+* House event - failure might happen but we plan that to happen
+	* e.g. maintenance
+	
+* repair in fault trees or RBDs?
+	* not part of the model!
+	
+* voting or gate (k out of n)
+
+# DepSys - Fault Trees - 5 Cut sets
+* group of basic events that trigger a failure event
+
+* minimal cut set
+	* when all probabilites are equal cut set length is interesting
+	
+* singleton cut set - single point of failure
+
+## Qualitative analysis
+* helpful to find dominant minimal cut set
+
+* event imporatance
+	* ask yourself how important and event is for top event
+	
+## How to determine Cutsets
+* Boolean reduction
+	* computetionally complex
+	* many heuristics
+	
+## Quantitave analysis
+* put in probabilities
+
+# DepSys - Fault Trees - 6 Assignment
+
+# DepSys - State-Based Dependability Modeling - 1 Recap
+* Fault trees
+	* Boolean reduction
+		* simple term to derive failure probability
+		* derive cutsets
+	* use cutsets for qualitative analysis
+	* use probabilities for quantitative analysis
+
+## MOCUS - Method for obtaining cut sets
+* walk down the tree
+* write and in seperate colums,
+* write or gates as seperate rows
+
+## Quantitative analysis of cut sets
+* how to deal with AND gates?
+
+* Fixing Cut Gates
+
+## Dynamic Fault Trees (DFT)
+* Functional dependency (FDEP) gate
+* forces dependent events to occur on activation
+	* for example good for power outage
+	* or network fail
+* can lead to circular dependencies
+* Cold Spare (CSP) Gate
+	* alternate inputs are not power initially but can function as replacement
+	
+# DepSys - State-Based Dependability Modeling - 2 Hypothetic Example Computer System
+* Processors: Cold spare setup, dormancy factor 0 (cannot fail in passive mode)
+* Memory: Broken interface triggers memory modules to fail immediately
+
+## Fault Tree Contruction
+* Identify Objective
+* Define Top Event
+	* precise and decomposable enough
+	* not underspecify
+
+### Errors
+* Ambigous TOP event
+* ignoring significant environment conditions
+* inconsistent event names
+
+* logic can be testet in succes domain by inverting all statements and gates
+
+* Converting FTA to RBD
+
+* Convert structures to RBDs in two different ways
+
+# DepSys - State-Based Dependability Modeling - 3 Event Tree Analysis
+* other tree based analyses method
+
+# DepSys - State-Based Dependability Modeling - 4 State-Based Dependability Modeling
+* you cannot capture state in Fault trees
+
+## Dependability modeling
+* component-based models: RBDs, FTAs
+* State-based models: Markov chains, petri nets
+
+* markov and petri are more powerful but harder to draw
+
+# DepSys - State-Based Dependability Modeling - 5 Markov Chains
+* markov property: next step depens only on the current stepseh
+
+* Discrete-time and continupus-time
+
+## Example
+* k out of n system with n components
+
+# DepSys - State-Based Dependability Modeling - 6 Petri Nets
+* Graphical language to model systems
+* conflicting transitions models not-determinism
+
+* Example: Priority AND -> Stochastic Petri Net
+
+* Token Game, Monte Carlo Simulation
+
+# DepSys - State-Based Dependability Modeling - 7 Reliability tools
+* overall procedure
+	* System structure
+	* Fault classes
+	* Failure rates
+	* Fault handling procedures
+	* Repair procedures
+	* Success criteria
+	
+* Real World Systems -> Model -> Solution Technique -> Evaluations
+
+* Runtime Dependability Evaluation
