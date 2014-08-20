@@ -856,3 +856,138 @@
 * Real World Systems -> Model -> Solution Technique -> Evaluations
 
 * Runtime Dependability Evaluation
+
+# DepSys - State-Based Dependability Modeling Recap - 1 Markov Chains
+## State-Based Dependability Modeling - Idea
+### Basic Idea
+* Petri nets and Markov chains
+
+#### Types of Markov Chains
+* DTMC? CTMC?
+* What is this model supposed to tell us?
+	* We model partial error states and their transitions
+		* Either it's getting worse or better
+		* How do be evolve to a system failure
+		* transition probabilities
+		* repair rates, spare components ... all can be expressed as states
+* Rely on well known math -> Markov chains and petri nets
+
+#### Markov property
+* memoryless
+* Discrete-time and Continuous-time
+* Markov-simulator gives you statistical probabilities
+
+# DepSys - State-Based Dependability Modeling Recap - 2 Petri Nets
+* advantage: because of the tokens you don't have state explosion
+* you can do model checking
+* diversity: let different people do the same job
+* MDD: model driven development
+	* Audi does this for hardware all the time
+	
+## workflow
+* real world systems -> model -> solution technique -> evaluations
+
+# DepSys - FMEA - 1 Qualitative Dependability Investigation
+* Qualitative modelling: We accept the fact that we have no probabilites or failure rates available
+
+## Root cause analysis
+* find originating fault
+
+* investigation in entire organization
+
+# DepSys - FMEA - 2 FMEA
+* default when you don't have probabilites
+* FailureModeandEffectsAnalysis
+* from 1940s military usage
+	* meanwhile in software and medicine
+* get all engineers from different departments together and lock them in and ask them to fill out FMEA
+
+## Goals
+* prevent safety hazards
+* avoid performance failure (e.g. production performance)
+* preventing maintenance (how often)
+
+# DepSys - FMEA - 3 FMEA Types
+## SFMEA
+* System FMEA
+* Improve overall system design
+* what are failure modes and results from failure modes
+
+## DFMEA
+* Design FMEA
+* focus on failure modes reasoned by design deficiencies
+
+## PFMEA
+* Process FMEA
+* analyze manufacturing and assembling processes
+* how can the production fail?
+* software: how can the development process fail?
+* structurally analyze what can go wrong
+
+* design: wrong specification - process: wrong usage
+
+* Software FMEA, ...
+
+## FMEA
+* what are failure mode candidates?
+* which effects are critical and which are not? prioritize
+* Result is a list of failure modes and priorities
+
+# DepSys - FMEA - 4 FMEA Worksheet
+* The table
+* First: items
+* subjective severity numbers
+* discuss causes
+* probability 1 to 10
+* multiplying values gives you risk priority
+* detection probability may be left out, if you have no repair option
+
+# DepSys - FMEA, FMECA & HAZOPS - 1 Recap
+* idea behind quantitative analysis?
+	* the numbers game
+		* combine numbers to an overall number
+* fault trees
+* petri nets & markoc chains
+
+## when do you use what?
+* static vs. dynmic system
+* fault trees: all events happen at once from the model approach
+* stateful approaches: if you have repair in place
+
+* FMEA: structural recipe what to do when you don't have numbers
+	* derive severity ranking
+	
+# DepSys - FMEA, FMECA & HAZOPS - 2 Example: System FMEA of ATM
+* RPN tells you what is the first thing to fix
+* CRIT tells you what is the most nasty problem
+* What about common cause failures?
+* Starter questions
+	* What is the consequence of failure?
+	* What will the customer experience
+	* Will the failure cause potential harm to the end user?
+	* ...
+	
+# DepSys - FMEA, FMECA & HAZOPS - 3 Severity Rankings in Automobile Industry
+* 1 No Effect, 2 - 4 Annoyance, 5 - 6 degration of secondary function, 9 - 10 safety and regulatory requirements
+* Category 1 to 4 that effect mission
+
+* Occurence Ranking
+
+# DepSys - FMEA, FMECA & HAZOPS - 4 Software FMEA
+* Difficult because software is moving much faster than hardware
+* Failure to perform a function reliably, safely, when needed ...
+* Prioritize FMEA Projects
+
+## Common mistakes
+* missing the forest for the trees
+* team meeting attendance is crucial
+	* 4 - 8 people is good
+	
+# DepSys - FMEA, FMECA & HAZOPS - 5 FMECA & HAZOPS
+* Hazard & Operability Studies
+* originally from chem plants
+* secondary keywords (no, less, more, reverse, also, other, fluctuation, eary, late)
+* you find all failure modes
+
+## Hazops procedure
+* do I have all keywords? ...
