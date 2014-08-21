@@ -991,3 +991,115 @@
 
 ## Hazops procedure
 * do I have all keywords? ...
+
+# DepSys - CMMI, Six Sigma & ITIL - 1 About the Assignment & Recap
+* assignment 2: FMEA for flashlight in teamwork
+* relationship between fault tree and FMEA
+* Software FMEA about echo program
+
+# DepSys - CMMI, Six Sigma & ITIL - 2 Root Cause Analysis
+* take an existing failure that happen and find out what went wrong
+* 5 Whys from Toyota manufacturing
+
+## Why-Because graph (WBG)
+* different events - find the links between them
+* framwork to think in a structured way about possible event chains
+* failure at top - at the bottom you end up with root events
+
+# DepSys - CMMI, Six Sigma & ITIL - 3 RCA: Ishikawa/Fishbone Diagram
+* head of fish is problem
+* fish bones are differen factors (e.g. methods, place, manpower, procedures, ...)
+
+# DepSys - CMMI, Six Sigma & ITIL - 4 CMMI
+* CMMI Maturity Levels
+	* Level 1: Initial
+	* 2: process characterized but most parts are still reactive
+	* 3: Processes are followed proactively
+	* 4: Processes measured and controlled
+	* 5: Optimizing, people are thinking on a daily basis how to improve processes
+* How to achieve the levels?
+
+# DepSys - CMMI, Six Sigma & ITIL - 5 Six Sigma
+* Motorola trademark
+* statistical metrics to improve output
+* 7 six sigma levels
+
+## DMAIC methodology
+* Define, measure, analyze, improve, control
+* not exact relevant
+
+# DepSys - CMMI, Six Sigma & ITIL - 6 ITIL
+* Information Technology Infrastructure Library
+* Agile programming (Scrum) was counter development to ITIL
+* no longer listen to engineer
+
+## ITIL v3 Service
+* someone is doing something and that costs money
+* service value, level, assets, providers
+
+* Service Lifecycle
+
+* highest level of abstraction for dependability analysis
+
+# DepSys - Reliability Prediction - 1 Predicting System Reliability
+* where do you get initial probabilites from?
+	* data harvesting
+	
+# DepSys - Reliability Prediction - 2 Reliability Data
+## Field (operational) data
+* from real world operation
+* you have sensors in your devices
+* it is still very hard to get data
+
+## service data
+* helpful in assessing time characteristics of reliability issues
+
+* operational conditions many times unknown
+
+* only way for prediction is to reduce variation
+
+* recently: big data and only find correlations
+
+# DepSys - Reliability Prediction - 3 Failure Probabily Sources
+* original data, historical evidence, simulation or testing
+
+## MIL-HDBK 217
+* completely wrong
+* emprirical failure rates for various electrical parts
+* part count prediction
+
+* Early estimate of a failure rate, given by
+* part stress analysis prediction
+	* part stress method
+* environment factors well defined
+* discontinued in `96
+	* has been shown to be unreliable
+	* failure rates in specification too high for todays electronic
+
+## Telcordia (Bellcore)
+* method 1: part count
+* 2 1 extendend with lab test data
+* 3: 2 including field failure data
+
+* terlcordia more optimistic
+
+# DepSys - Reliability Prediction - 4 Software Reliability Assessment
+* Software bugs are transient faults
+
+* Software Reliability Growth Models
+	* When can we stop testing?
+	* either concave or s-shape curve
+	
+# DepSys - Reliability Prediction - 5 Jelinski-Moranda Model
+* tries to estimate failure rate for software
+* assumption: all bugs are equal, repairs are perfect (bad assumption!)
+* turned out to be somehow realistic
+
+## White Box Approach - Software Metric
+
+# DepSys - Reliability Prediction - 6 Halstead Metric
+* Statistical approach
+* program length, vocabulary size, program volume, difficulty level
+* practice shows that it works well
+
+* real problem: you cannot talk about reliability without having a proper fault model
