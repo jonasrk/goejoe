@@ -1103,3 +1103,43 @@
 * practice shows that it works well
 
 * real problem: you cannot talk about reliability without having a proper fault model
+
+# DepSys - Distributed Systems Theory - 1 Motivation
+* how to BUILD fault tolerant systems?
+* "Distributed programming is the art of solving the same problem that you can solve on a single computer using multiple computers"
+* divide and conquer approach
+* "a ds is a collection of indepented comptuer that appears to its users as a single coherent system"
+
+* 8 Fallacies: network is reliable, latency is zero, bandwidth is infinite, network is secure, topology doesn't change, there is one admin, transport cost is zero, network is homogeneous
+
+* buzzwords: high availability, disaster recovery, geographic distribution, big data
+
+# DepSys - Distributed Systems Theory - 2 Divide and conquer
+* abstractions: timing assumptions, failure model, failure detectors, consistency model
+
+## Quiz
+* why can it be problematic to measure only availability (e.g. in SLAs)?
+	* how is the percentage distributed?
+
+# DepSys - Distributed Systems Theory - 3 Timing Model
+* Synchronous, partially synchronous (upper bound is known), asynchronous (unpredictable, most general model)
+
+## Logical Time
+* requires transitive "happend before" relation
+* uncurrent if a not before b and b not before a
+
+* clock drift -> need synchronization
+* hierarchical network time protocol (NTP)
+
+# DepSys - Distributed Systems Theory - 4 Fault Model
+* Bynzantine Generals Problem
+* Defend against arbitrary failures
+* Failure Detectors
+	* Model: Failure Detector, Completeness, Accuracy
+* Distributed Systems Problems: Atomic broadcast, consensus, leader election, atomic commit, terminating relaible broadcast
+
+# DepSys - Distributed Systems Theory - 5 Consensus
+
+# DepSys - Distributed Systems Theory - 6 Paxos
+* Duelling Proposers
+* Practical Challenges: Failure detection needs to be implemented seperately, IO complexity, consensus on single values only
