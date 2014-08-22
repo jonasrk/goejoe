@@ -1143,3 +1143,40 @@
 # DepSys - Distributed Systems Theory - 6 Paxos
 * Duelling Proposers
 * Practical Challenges: Failure detection needs to be implemented seperately, IO complexity, consensus on single values only
+
+# DepSys - Fault Tolerant Distributed Systems - 1 Recap
+* timing assumptions: synchronous or asynchronous
+
+# DepSys - Fault Tolerant Distributed Systems - 2 Consistency Models
+* Data-Centric Consistency
+	* assume no explicit synchronization operations
+* Strict Consistency: Any read returns the most recent write
+* Linearizable / Atomic Consistency
+
+# DepSys - Fault Tolerant Distributed Systems - 3 Client-Centric Consistency Models
+* Causal Consistency
+
+# DepSys - Fault Tolerant Distributed Systems - 4 Trade-Offs
+* Lessons form giant-scale services: use symmetry, harvest and yield as metrics, focus on MTTR
+* CAP Theorem
+
+# DepSys - Fault Tolerant Distributed Systems - 5 PACELC
+* trade off availability and consistency
+* Consistency vs Availability
+
+* Fault Tolerance vs Real Time
+	* for FT you need to reorder actions
+	* Concurrency increases efficiency but makes realtime harder
+
+# DepSys - Fault Tolerant Distributed Systems - 6 Replication
+* Logical objects implemented by multiple physical copies: replicas
+* replication transperency: clients unaware of the existence ...
+
+## Replication Protocols
+* Request, Server Coordination, Execution, Agreement Coordination, Response
+
+* State Machine Replication (Active)
+* Primary/Backup Replication (Passiv)
+	* clients send requests to primary replica
+
+* eager vs lazy replication approach
