@@ -1180,3 +1180,99 @@
 	* clients send requests to primary replica
 
 * eager vs lazy replication approach
+
+# DepSys - Dependable Distributed Applications - 1 Recap
+* Consistency models?
+	* strong?
+		* the promise to preserver sequential ordering of updates
+* Replication schemes
+	* state replication
+	* passive replication
+		* asynchronously
+
+## Framworks and programming models
+* Fault observer ...
+
+# DepSys - Dependable Distributed Applications - 2 FT-CORBA
+* standard for communitating between different platforms
+* warm / cold passive -> high recovery time
+
+## Erland/OTP
+* fault tolerance as design principle
+* Open Telecom Platform framework
+* better crash fast than do undefined stuff
+
+# DepSys - Dependable Distributed Applications - 3 Fault Tolerant Coordination Services
+* distributed algorithms are hard to implement
+* redundant nodes can be lightweight
+
+## Chubby
+* Googles distributed lock service
+	* simple interface for distributed decision making
+
+## Zookeper
+* originally for Hadoop
+
+## Design choices
+* When to resolve conflicts?
+	* on read or write?
+* Who resolves conflicts?
+	* Applicaton or Storage system?
+	
+## ACID vs BASE
+* Atomic Consistent Isolated Durable
+* Basically Available, Soft-state, Eventual consistency
+
+## Modern distributed storage systems
+* shift to more configuration system
+* NoSQL movement
+
+## Self-Healing
+* Read repair
+* Active Anti-Entropy
+
+### BigTable
+* by Google
+* BuildingBlocks
+
+# DepSys - Dependable Distributed Applications - 4 Google Spanner
+* Spanservers consist of different data centers
+* own GPS-based time negotiational: TrueTime
+* HDFS: DataNodes, NameNode
+* Dynamo: by Amazon, 
+* Riak: Erlang supervision tree, ring-based consistent hashing, Replication configuration
+* Cassandra: distributed NoSQL DBMS
+
+# DepSys - Dependable Distributed Applications - 5 The Reality of Distributed Failures
+
+# DepSys - Hardware Dependability - Diagnosis & Redundancy - 1 Introduction
+* problem with software reliability: environment diversity (in contrast to design diversity)
+	* research not keeping up with industry?
+
+# DepSys - Hardware Dependability - Diagnosis & Redundancy - 2 Recap
+* Eventual consistency?
+	* strong: the visibility of updates is equivalent to a non-replicated system
+	* what promise to outside world?
+		* do all users see always the same data?
+		* or doesn't it matter if one user sees a little old data
+	* eventually constinency: at some point in time data will be synced
+* CAP Theorem: Consistency, Availability, Partition tolerance - only 2 at the same time!
+
+# DepSys - Hardware Dependability - Diagnosis & Redundancy - 3 Hardware Dependability - Redundancy
+* Static, dynamic, hybrid approaches
+* Redundancy is never for free!
+* Sphere of replication: 
+
+# DepSys - Hardware Dependability - Diagnosis & Redundancy - 4 Stating Redundandy
+* Exact voting
+* Triple-modular redundancy
+* N-modular redundancy (NMR)
+* simplex: standar case without redundancy
+* disks need a reliability greater than 0.25 to improbe reliability with 3 disks
+
+# DepSys - Hardware Dependability - Diagnosis & Redundancy - 5 Imperfect Voters
+* Hardware voting is easy: and gates?
+* dynamic redundany: reconfiguration of system in repsonse to error state
+* Duplex Systems:
+* Back-Up Sparing
+* Pair and Spare
