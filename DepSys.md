@@ -1327,3 +1327,51 @@
 	* BIOS counts ECC correction to monitor memory health
 		* makes sense because of wearing out effect
 * Memory Redundandy
+
+# DepSys - Software Dependability - 1 Software Dependability
+* is hard because of Complexity, Conformity, Changeability, Invisibility
+	* non-linear interaction, moving target
+ 
+# DepSys - Software Dependability - 2 Fault dependencies in the system stack
+* what layer to do fault tolerance on?
+	* whatever works?
+	* depends on the underlying fault model
+* What is a good fault model for software?
+	* "A fault model is a classification of the root causes of why something can fail."
+	* Race conditions, 
+* Post-mortem: Someone writes down how he found a problem.
+
+# DepSys - Software Dependability - 3 Test Oracles
+* compare the output of the system to output expected by oracle for a given input
+* consistency oracle
+
+* Fault injection: simulate faults to see what happens
+	* modify state
+	* works well in distributed systems
+* Run-time injection
+
+# DepSys - Software Dependability - 4 Fault-tolerant software
+* Why is it not possible to have a proper fault tolerance mechanism without the right fault model?
+	* You can't implement fault detection when you have no idea what can go wrong.
+* Error Hierarchy
+* Temporary vs permanent faults
+* Forward- or Backward-error-recovery
+	* Forward: e.g. Retry (classical in network)
+	* Backward: e.g. Reboot
+* Single version and multi version techniques
+
+# DepSys - Software Dependability - 5 Single-Version Applications
+* Wrapper
+	* CatchAll Exceptions
+* Why is restart such a great recovery mechanism in software?
+* Checkpointing
+* Optimum checkpointing interval? Not easy to find.
+
+# DepSys - Software Dependability - 6 Process Pairs
+* copied from Hardware people
+* Error Detection module, selection switch
+	* doesn't help for design faults
+	* may work for race conditions, timing related issues
+	
+## Data Diversity
+* take input and try to reformulate it
