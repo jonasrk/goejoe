@@ -1276,3 +1276,54 @@
 * Duplex Systems:
 * Back-Up Sparing
 * Pair and Spare
+
+# DepSys - Hardware Redundancy - 1 Recap
+* started with avation and powerplant industry
+* it gets less and less relevant to build ultra reliant hardware
+	* it's cheaper
+	* trick about software: cost for creation of redundancy same, but ones you have it it gets really really cheap
+	* SW easier to maintain
+* static and dynamic redundandy
+* duplex system, comparator
+* Back-Up Sparing
+	* N-to-1 switch: only one spare is used
+* Pair and Spare:
+
+# DepSys - Hardware Redundancy - 2 Graceful Degratation
+* designed-in and added-on spare resources
+* Spanning Tree Protocol:
+	* Build in switches and routers
+	* removing redundant paths in network
+	* you need: error detection, error mitigation/recovery
+
+## Hybrid approaches
+* n-modular redundancy with spares
+* TMR with Spares
+* Triple Duplex
+	* Dublex with comparison, then voting
+	* broader fault model
+
+# DepSys - Hardware Redundancy - 3 The real world of Hardware redundancy
+* google failure data
+* IBM System z
+	* CPU retry
+	* circuitry redundancy
+	* Channel-subsystem recovery: restart IO components
+	
+# DepSys - Hardware Redundancy - 4 Memory Redundancy
+* Hamming Distance: In how many positions do 2 words differ?
+* ECC? Can correct one-bit errors. With 2 errors it can tell you that there is an error.
+
+# DepSys - Hardware Redundancy - 5 Parity Codes
+* Bit-per-byte, -word, -chip
+* Two-Dimensional Parity (Card Trick)
+	* Locate error and flip it back
+	* Do you need overall parity check bit?
+	
+# DepSys - Hardware Redundancy - 6 Checksumming
+* Hamming Code
+	* parity bits in word at power-of-two positions
+	* underlying foundation for ECC
+	* BIOS counts ECC correction to monitor memory health
+		* makes sense because of wearing out effect
+* Memory Redundandy
