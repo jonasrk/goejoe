@@ -1375,3 +1375,85 @@
 	
 ## Data Diversity
 * take input and try to reformulate it
+
+
+# DepSys - Software Dependability & Summary - 1 Assignment 3 Feedback
+
+# DepSys - Software Dependability & Summary - 2 Software Dependability
+* problem in software fault trees: same basic events at many places
+* Fault elimination, fault-tolerant software, software fault tolerance
+* High-Level Instruction Duplication
+	* Take each variable and duplicate it
+	* Check consistency after each instruction
+* Selective Instruction Duplication
+	* only with important variables
+
+# DepSys - Software Dependability & Summary - 3 Control Flow Errors
+* CFE Approaches
+
+## Multi-Version Approaches
+* Recovery Blocks
+	* several alternative modules
+	* acceptenace test
+	* diversity of redundancy
+* NVP: N-Version Programming
+	* multi input lane
+	* decision maker
+	
+# DepSys - Software Dependability & Summary - 4 NVP
+* Random diversity vs. required diversity
+* avoid fault leak links
+	* developers must not talk with each other
+* Case Study
+	* most important: dev education and requirements definition
+	
+# DepSys - Software Dependability & Summary - 5 Simplex Approach
+
+# DepSys - Software Dependability & Summary - 6 Summary
+* What is dependability?
+* Dependability Tree
+* Stakeholders
+* Threats: Fault, error, failure (Ausfall)
+* Chain of dependability Threats
+* Failure Severity
+* Means for Dependability:
+	* prevention, tolerance, removal (also repair), forecasting
+* Phases of Fault Tolerance (Hanmer)
+
+## Fault Tolerance Patterns
+* Architectural, Detection, Error Recovery
+
+* Attributes: Reliability on a mathematical Level
+	* distributions
+	
+## Dependability Modeling (10:30)
+* Fault forecasting by dependability modeling
+* Failure Space Succes Space concept
+* Fault Trees
+* Inductive and deductive methods
+* RBDs, state-based modeling
+
+* With the different modelling techniques you have different error sources at different points
+
+## Qualitative Fault Analysis / Prediction
+* FMEA, HAZOPS, Root cause analysis, reliabilty models
+
+## Reliability Prediction Models
+* MIL standard, bellcore
+* software
+	* black-box approaches: Jelinski-Moranda
+	* white-box: code metrics
+	* can be used to extend dependability model
+
+## Distributed systems
+* Fault models in distributed system
+* consensus problems
+* consistency models
+* CAP Theorem
+
+## Hardware diagnostics and redundancy
+* Sphere of Replication
+* Voting
+* N-modular redundancy
+
+* At the end its always about performance vs cost vs dependability 
