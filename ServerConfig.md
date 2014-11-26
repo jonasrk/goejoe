@@ -9,3 +9,6 @@ Autostart tmux session -> http://reinhard-seiler.blogspot.com/2013/05/tutorial-h
 Irssi configuration -> http://askubuntu.com/questions/61549/how-do-i-configure-irssi
 
 NEEDED: Server mod_proxy implementieren http://buecher.lingoworld.de/apache2/mod_proxy.html
+
+
+spoof mac on boot: https://forums.kali.org/showthread.php?21985-How-to-make-mac-address-random-at-each-boot-up
